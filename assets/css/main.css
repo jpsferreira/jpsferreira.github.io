@@ -1936,6 +1936,10 @@ a:hover {
 	}
 
 		body.is-preload #wrapper {
+			opacity: 1 !important;
+		}
+
+		body.is-preload #wrapper {
 			opacity: 0;
 		}
 
