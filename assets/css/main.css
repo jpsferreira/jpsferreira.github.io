@@ -2,9 +2,7 @@
 @import url("fontawesome-all.min.css");
 
 /*
-	Astral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	JoaoFerreira
 */
 
 html, body, div, span, applet, object,
@@ -31,6 +29,14 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+    background: #0a0b0d !important;
+    color: #d4d4d4 !important;
+    font-family: 'Fira Mono', 'Menlo', 'Monaco', 'Consolas', monospace !important;
+    background-image: none !important;
+    background-repeat: unset !important;
+    background-size: unset !important;
+    background-attachment: unset !important;
+    overflow-y: scroll;
 }
 
 ol, ul {
@@ -70,6 +76,20 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+
+/* Headings and links for dev-like accent */
+h1, h2, h3, h4, h5, h6 {
+    color: #61dafb;
+    font-family: 'Fira Mono', 'Menlo', 'Monaco', 'Consolas', monospace;
+}
+a {
+    color: #98c379;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+a:hover {
+    color: #e06c75;
 }
 
 /* Row */
@@ -1295,6 +1315,15 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 360px) {
+
+			#wrapper {
+				padding: 1em 0;
+				max-width: 100%;
+			}
+
+		}
+
 /* Basic */
 
 	html {
@@ -1304,25 +1333,6 @@ input, select, textarea {
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
-
-	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
-		background-repeat: repeat, no-repeat;
-		background-size: auto, 100% 100%;
-		background-attachment: fixed;
-		overflow-y: scroll;
-	}
-
-		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-		}
 
 	body, input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
