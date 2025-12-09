@@ -1,0 +1,340 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<title>Publications | João Ferreira</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="Publications list of João Ferreira - Data Scientist, Professor, and Mechanical Engineer.">
+	<link rel="stylesheet" href="assets/css/modern.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+		rel="stylesheet">
+	<style>
+		.publications-section {
+			padding: 6rem 2rem;
+			background: #fff;
+			min-height: 100vh;
+		}
+
+		.publications-header {
+			text-align: center;
+			margin-bottom: 3rem;
+		}
+
+		.publications-header h1 {
+			font-size: 2.5rem;
+			margin-bottom: 1rem;
+			color: #1a1a1a;
+		}
+
+		.publications-stats {
+			display: flex;
+			justify-content: center;
+			gap: 2rem;
+			margin: 2rem 0;
+			flex-wrap: wrap;
+		}
+
+		.stat-box {
+			background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+			color: white;
+			padding: 1.5rem 2rem;
+			border-radius: 12px;
+			text-align: center;
+			min-width: 150px;
+		}
+
+		.stat-box .number {
+			font-size: 2rem;
+			font-weight: 700;
+			display: block;
+		}
+
+		.stat-box .label {
+			font-size: 0.9rem;
+			opacity: 0.9;
+		}
+
+		.filters {
+			display: flex;
+			gap: 1rem;
+			margin-bottom: 2rem;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+
+		.filter-btn {
+			padding: 0.5rem 1rem;
+			border: 2px solid #667eea;
+			background: white;
+			color: #667eea;
+			border-radius: 8px;
+			cursor: pointer;
+			font-size: 0.9rem;
+			font-weight: 500;
+			transition: all 0.3s ease;
+		}
+
+		.filter-btn:hover,
+		.filter-btn.active {
+			background: #667eea;
+			color: white;
+		}
+
+		.search-box {
+			max-width: 600px;
+			margin: 0 auto 2rem;
+		}
+
+		.search-box input {
+			width: 100%;
+			padding: 1rem;
+			border: 2px solid #e1e8ed;
+			border-radius: 12px;
+			font-size: 1rem;
+			transition: border-color 0.3s ease;
+		}
+
+		.search-box input:focus {
+			outline: none;
+			border-color: #667eea;
+		}
+
+		.publication-entry {
+			background: white;
+			border: 1px solid #e1e8ed;
+			border-radius: 12px;
+			padding: 1.5rem;
+			margin-bottom: 1.5rem;
+			transition: all 0.3s ease;
+		}
+
+		.publication-entry:hover {
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+			transform: translateY(-2px);
+		}
+
+		.publication-entry .title {
+			font-size: 1.1rem;
+			font-weight: 600;
+			color: #1a1a1a;
+			margin-bottom: 0.5rem;
+			line-height: 1.4;
+		}
+
+		.publication-entry .title a {
+			color: #1a1a1a;
+			text-decoration: none;
+			transition: color 0.3s ease;
+		}
+
+		.publication-entry .title a:hover {
+			color: #667eea;
+		}
+
+		.publication-entry .authors {
+			color: #657786;
+			margin-bottom: 0.5rem;
+			line-height: 1.5;
+		}
+
+		.publication-entry .venue {
+			color: #1a1a1a;
+			font-style: italic;
+			margin-bottom: 0.5rem;
+		}
+
+		.publication-entry .meta {
+			display: flex;
+			gap: 1rem;
+			flex-wrap: wrap;
+			margin-top: 0.75rem;
+		}
+
+		.publication-entry .year-badge {
+			background: #667eea;
+			color: white;
+			padding: 0.25rem 0.75rem;
+			border-radius: 6px;
+			font-size: 0.85rem;
+			font-weight: 600;
+		}
+
+		.publication-entry .type-badge {
+			background: #e1e8ed;
+			color: #1a1a1a;
+			padding: 0.25rem 0.75rem;
+			border-radius: 6px;
+			font-size: 0.85rem;
+		}
+
+		.publication-entry .impact-badge {
+			background: #f59e0b;
+			color: white;
+			padding: 0.25rem 0.75rem;
+			border-radius: 6px;
+			font-size: 0.85rem;
+			font-weight: 600;
+		}
+
+		.publication-entry .links {
+			display: flex;
+			gap: 0.75rem;
+			margin-top: 0.75rem;
+		}
+
+		.publication-entry .link-btn {
+			color: #667eea;
+			text-decoration: none;
+			font-size: 0.9rem;
+			display: flex;
+			align-items: center;
+			gap: 0.3rem;
+			transition: color 0.3s ease;
+		}
+
+		.publication-entry .link-btn:hover {
+			color: #764ba2;
+		}
+
+		.loading {
+			text-align: center;
+			padding: 3rem;
+			font-size: 1.2rem;
+			color: #657786;
+		}
+
+		.no-results {
+			text-align: center;
+			padding: 3rem;
+			color: #657786;
+		}
+
+		@media (max-width: 768px) {
+			.publications-section {
+				padding: 4rem 1rem;
+			}
+
+			.publications-header h1 {
+				font-size: 2rem;
+			}
+
+			.stat-box {
+				min-width: 120px;
+				padding: 1rem 1.5rem;
+			}
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- Navigation -->
+	<nav class="navbar">
+		<div class="container navbar-content">
+			<a href="index.html" class="nav-brand">João Ferreira</a>
+			<div class="nav-links">
+				<a href="index.html#home" class="nav-link">Home</a>
+				<a href="index.html#work" class="nav-link">Portfolio</a>
+				<a href="index.html#about" class="nav-link">About</a>
+				<a href="publications.html" class="nav-link">Publications</a>
+				<a href="https://www.linkedin.com/in/jpsferreira/" target="_blank" class="nav-link"><i
+						class="fab fa-linkedin-in"></i></a>
+				<a href="https://github.com/jpsferreira" target="_blank" class="nav-link"><i
+						class="fab fa-github"></i></a>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Publications Section -->
+	<section class="publications-section">
+		<div class="container">
+			<div class="publications-header">
+				<h1>Publications</h1>
+				<p style="color: #657786; max-width: 800px; margin: 0 auto;">
+					A comprehensive list of my scientific contributions across biomechanics, artificial intelligence, and medical research.
+				</p>
+			</div>
+
+			<div class="publications-stats" id="stats">
+				<div class="stat-box">
+					<span class="number" id="total-pubs">-</span>
+					<span class="label">Total Publications</span>
+				</div>
+				<div class="stat-box">
+					<span class="number" id="total-articles">-</span>
+					<span class="label">Journal Articles</span>
+				</div>
+				<div class="stat-box">
+					<span class="number" id="recent-pubs">-</span>
+					<span class="label">Last 3 Years</span>
+				</div>
+			</div>
+
+			<div class="search-box">
+				<input type="text" id="search-input" placeholder="Search publications by title, author, or keyword...">
+			</div>
+
+			<div class="filters" id="filters">
+				<button class="filter-btn active" data-filter="all">All</button>
+				<button class="filter-btn" data-filter="article">Articles</button>
+				<button class="filter-btn" data-filter="inproceedings">Conference Papers</button>
+				<button class="filter-btn" data-filter="mastersthesis">Master's Thesis</button>
+				<button class="filter-btn" data-filter="phdthesis">PhD Thesis</button>
+				<button class="filter-btn" data-filter="with-if">With Impact Factor</button>
+			</div>
+
+			<div class="filters" style="margin-top: 1rem;">
+				<label style="color: #657786; font-weight: 500; margin-right: 0.5rem;">Sort by:</label>
+				<button class="filter-btn active" data-sort="year-desc">Year (Newest)</button>
+				<button class="filter-btn" data-sort="year-asc">Year (Oldest)</button>
+				<button class="filter-btn" data-sort="if-desc">Impact Factor (High-Low)</button>
+				<button class="filter-btn" data-sort="if-asc">Impact Factor (Low-High)</button>
+			</div>
+
+			<div id="loading" class="loading">
+				<i class="fas fa-spinner fa-spin"></i> Loading publications...
+			</div>
+
+			<div id="publications-list"></div>
+
+			<div id="no-results" class="no-results" style="display: none;">
+				No publications found matching your criteria.
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="social-links">
+				<a href="https://www.linkedin.com/in/jpsferreira/" target="_blank" class="social-icon"><i
+						class="fab fa-linkedin-in"></i></a>
+				<a href="https://twitter.com/ferreira_j_ps" target="_blank" class="social-icon"><i
+						class="fab fa-twitter"></i></a>
+				<a href="https://github.com/jpsferreira" target="_blank" class="social-icon"><i
+						class="fab fa-github"></i></a>
+				<a href="https://scholar.google.com/citations?user=4evUtFkAAAAJ&hl=en&authuser=1" target="_blank" class="social-icon" title="Google Scholar"><i
+						class="ai ai-google-scholar"></i></a>
+				<a href="https://patents.google.com/?inventor=João+Pedro+SOUSA+FERREIRA&oq=João+Pedro+SOUSA+FERREIRA" target="_blank" class="social-icon" title="Google Patents"><i
+						class="fas fa-lightbulb"></i></a>
+				<a href="https://orcid.org/0000-0003-4310-2915" target="_blank" class="social-icon" title="ORCID"><i
+						class="ai ai-orcid"></i></a>
+				<a href="https://www.scopus.com/authid/detail.uri?authorId=57193092231" target="_blank" class="social-icon" title="Scopus"><i
+						class="ai ai-scopus"></i></a>
+				<a href="mailto:jpsousaferreira@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+			</div>
+			<p>&copy; 2023 João Ferreira. All rights reserved.</p>
+		</div>
+	</footer>
+
+	<script src="assets/js/bibtex-parser.js"></script>
+	<script src="assets/js/publications.js"></script>
+
+</body>
+
+</html>
