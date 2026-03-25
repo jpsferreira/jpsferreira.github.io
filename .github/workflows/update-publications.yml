@@ -21,9 +21,11 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install scholarly
+        run: pip install scholarly free-proxy
 
       - name: Fetch publications from Google Scholar
+        env:
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
         run: python fetch_scholar.py
 
       - name: Check for changes

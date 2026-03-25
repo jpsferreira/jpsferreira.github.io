@@ -13,19 +13,46 @@ Can be run locally or via the GitHub Action (.github/workflows/update-publicatio
 """
 
 import json
+import os
 import re
+import sys
 import time
 from pathlib import Path
 
-from scholarly import scholarly
+from scholarly import scholarly, ProxyGenerator
 
 
 SCHOLAR_USER_ID = "4evUtFkAAAAJ"
 OUTPUT_FILE = Path("publications_bib/publications.json")
 
 
+def setup_proxy():
+    """Set up a proxy to avoid Google Scholar blocking."""
+    # Use ScraperAPI if key is provided (recommended for GitHub Actions)
+    scraper_api_key = os.environ.get("SCRAPER_API_KEY")
+    if scraper_api_key:
+        pg = ProxyGenerator()
+        pg.ScraperAPI(scraper_api_key)
+        scholarly.use_proxy(pg)
+        print("Using ScraperAPI proxy")
+        return
+
+    # Try free proxy as fallback
+    try:
+        pg = ProxyGenerator()
+        pg.FreeProxies()
+        scholarly.use_proxy(pg)
+        print("Using free proxy")
+    except Exception as e:
+        print(f"Warning: Could not set up proxy ({e}), trying direct connection")
+
+
 def fetch_author_publications():
-    """Fetch all publications from Google Scholar author profile."""
+    """Fetch all publications from Google Scholar author profile.
+
+    Uses only the author page data (no per-publication fill) to minimize
+    requests and avoid rate limiting.
+    """
     print(f"Fetching author profile: {SCHOLAR_USER_ID}")
     author = scholarly.search_author_id(SCHOLAR_USER_ID)
     author = scholarly.fill(author, sections=["basics", "indices", "publications"])
@@ -36,20 +63,10 @@ def fetch_author_publications():
     print(f"i10-index: {author.get('i10index', 'N/A')}")
 
     publications = []
-    for i, pub in enumerate(author["publications"]):
-        print(f"  [{i+1}/{len(author['publications'])}] Fetching: {pub['bib'].get('title', 'Unknown')[:60]}...")
-        try:
-            filled = scholarly.fill(pub)
-        except Exception as e:
-            print(f"    Warning: Could not fill details - {e}")
-            filled = pub
-
-        entry = convert_to_entry(filled)
+    for pub in author["publications"]:
+        entry = convert_to_entry(pub)
         if entry:
             publications.append(entry)
-
-        # Be polite to Google Scholar
-        time.sleep(1)
 
     return publications, {
         "total_citations": author.get("citedby", 0),
@@ -126,7 +143,20 @@ def convert_to_entry(pub):
 
 
 def main():
-    publications, stats = fetch_author_publications()
+    setup_proxy()
+
+    try:
+        publications, stats = fetch_author_publications()
+    except Exception as e:
+        print(f"Error fetching from Google Scholar: {e}", file=sys.stderr)
+        print("Google Scholar may be blocking requests. Try:", file=sys.stderr)
+        print("  1. Run locally instead of in CI", file=sys.stderr)
+        print("  2. Set SCRAPER_API_KEY env var for proxy support", file=sys.stderr)
+        sys.exit(1)
+
+    if not publications:
+        print("Error: No publications fetched. Aborting to preserve existing data.", file=sys.stderr)
+        sys.exit(1)
 
     # Sort by year (most recent first), then by citations
     def sort_key(entry):
