@@ -1,0 +1,41 @@
+name: Update Publications from Google Scholar
+
+on:
+  schedule:
+    # Run weekly on Mondays at 6:00 UTC
+    - cron: '0 6 * * 1'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-publications:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install scholarly
+
+      - name: Fetch publications from Google Scholar
+        run: python fetch_scholar.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet publications_bib/publications.json publications_bib/scholar_stats.json || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add publications_bib/publications.json publications_bib/scholar_stats.json
+          git commit -m "Update publications from Google Scholar [automated]"
+          git push
