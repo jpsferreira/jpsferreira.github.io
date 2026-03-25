@@ -172,8 +172,8 @@
 			font-size: 0.85rem;
 		}
 
-		.publication-entry .impact-badge {
-			background: #f59e0b;
+		.publication-entry .citations-badge {
+			background: #10b981;
 			color: white;
 			padding: 0.25rem 0.75rem;
 			border-radius: 6px;
@@ -212,6 +212,28 @@
 			text-align: center;
 			padding: 3rem;
 			color: #657786;
+		}
+
+		.scholar-link {
+			text-align: center;
+			margin-top: 1rem;
+		}
+
+		.scholar-link a {
+			color: #667eea;
+			text-decoration: none;
+			font-size: 0.9rem;
+		}
+
+		.scholar-link a:hover {
+			text-decoration: underline;
+		}
+
+		#last-updated {
+			text-align: center;
+			color: #9ca3af;
+			font-size: 0.8rem;
+			margin-top: 0.5rem;
 		}
 
 		@media (max-width: 768px) {
@@ -256,44 +278,49 @@
 			<div class="publications-header">
 				<h1>Publications</h1>
 				<p style="color: #657786; max-width: 800px; margin: 0 auto;">
-					A comprehensive list of my scientific contributions across biomechanics, artificial intelligence, and medical research.
+					Scientific contributions across biomechanics, artificial intelligence, and medical research.
+					Data sourced from <a href="https://scholar.google.com/citations?user=4evUtFkAAAAJ&hl=en" target="_blank" style="color: #667eea;">Google Scholar</a>.
 				</p>
 			</div>
 
 			<div class="publications-stats" id="stats">
 				<div class="stat-box">
 					<span class="number" id="total-pubs">-</span>
-					<span class="label">Total Publications</span>
+					<span class="label">Publications</span>
 				</div>
 				<div class="stat-box">
-					<span class="number" id="total-articles">-</span>
-					<span class="label">Journal Articles</span>
+					<span class="number" id="total-citations">-</span>
+					<span class="label">Citations</span>
 				</div>
 				<div class="stat-box">
-					<span class="number" id="recent-pubs">-</span>
-					<span class="label">Last 3 Years</span>
+					<span class="number" id="h-index">-</span>
+					<span class="label">h-index</span>
+				</div>
+				<div class="stat-box">
+					<span class="number" id="i10-index">-</span>
+					<span class="label">i10-index</span>
 				</div>
 			</div>
 
+			<p id="last-updated"></p>
+
 			<div class="search-box">
-				<input type="text" id="search-input" placeholder="Search publications by title, author, or keyword...">
+				<input type="text" id="search-input" placeholder="Search publications by title, author, or journal...">
 			</div>
 
 			<div class="filters" id="filters">
 				<button class="filter-btn active" data-filter="all">All</button>
 				<button class="filter-btn" data-filter="article">Articles</button>
 				<button class="filter-btn" data-filter="inproceedings">Conference Papers</button>
-				<button class="filter-btn" data-filter="mastersthesis">Master's Thesis</button>
-				<button class="filter-btn" data-filter="phdthesis">PhD Thesis</button>
-				<button class="filter-btn" data-filter="with-if">With Impact Factor</button>
+				<button class="filter-btn" data-filter="highly-cited">Highly Cited (10+)</button>
 			</div>
 
 			<div class="filters" style="margin-top: 1rem;">
 				<label style="color: #657786; font-weight: 500; margin-right: 0.5rem;">Sort by:</label>
 				<button class="filter-btn active" data-sort="year-desc">Year (Newest)</button>
 				<button class="filter-btn" data-sort="year-asc">Year (Oldest)</button>
-				<button class="filter-btn" data-sort="if-desc">Impact Factor (High-Low)</button>
-				<button class="filter-btn" data-sort="if-asc">Impact Factor (Low-High)</button>
+				<button class="filter-btn" data-sort="citations-desc">Citations (Most)</button>
+				<button class="filter-btn" data-sort="citations-asc">Citations (Fewest)</button>
 			</div>
 
 			<div id="loading" class="loading">
@@ -328,11 +355,10 @@
 						class="ai ai-scopus"></i></a>
 				<a href="mailto:jpsousaferreira@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
 			</div>
-			<p>&copy; 2023 João Ferreira. All rights reserved.</p>
+			<p>&copy; 2025 João Ferreira. All rights reserved.</p>
 		</div>
 	</footer>
 
-	<script src="assets/js/bibtex-parser.js"></script>
 	<script src="assets/js/publications.js"></script>
 
 </body>
