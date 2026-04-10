@@ -1,4 +1,4 @@
-name: Update Publications from Google Scholar
+name: Update Publications from OpenAlex
 
 on:
   schedule:
@@ -20,13 +20,8 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: pip install scholarly free-proxy
-
-      - name: Fetch publications from Google Scholar
-        env:
-          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
-        run: python fetch_scholar.py
+      - name: Fetch publications from OpenAlex
+        run: python fetch_publications.py
 
       - name: Check for changes
         id: changes
@@ -39,5 +34,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add publications_bib/publications.json publications_bib/scholar_stats.json
-          git commit -m "Update publications from Google Scholar [automated]"
+          git commit -m "Update publications from OpenAlex [automated]"
           git push
