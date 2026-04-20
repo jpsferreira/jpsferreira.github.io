@@ -1,11 +1,11 @@
 [
   {
     "type": "article",
-    "key": "Mascarenhas2025-9",
+    "key": "Mascarenhas2025-10",
     "title": "Explainable AI in Digestive Healthcare and Gastrointestinal Endoscopy",
     "author": "Miguel Mascarenhas and Francisco Mendes and Miguel Martins and Tiago Ribeiro and João Afonso and Pedro Cardoso and João Ferreira and João Fonseca and Guilherme Macedo",
     "year": "2025",
-    "citations": 15,
+    "citations": 16,
     "journal": "Journal of Clinical Medicine",
     "url": "https://doi.org/10.3390/jcm14020549",
     "eprint_url": "https://www.mdpi.com/2077-0383/14/2/549/pdf?version=1737025509",
@@ -39,6 +39,19 @@
     "volume": "16",
     "number": "12",
     "pages": "e00941"
+  },
+  {
+    "type": "article",
+    "key": "Mascarenhas2025-3",
+    "title": "Real-Life Clinical Validation of Artificial Intelligence-Assisted Detection and Differentiation of Pleomorphic Lesions in Capsule Endoscopy",
+    "author": "Miguel Mascarenhas Saraiva and João Ferreira and João Afonso and Francisco Mendes and William Preston Sonnier and Bruno Rosa and Tiago Ribeiro and Tiago Cúrdia Gonçalves and Miguel Martins and Pedro Campelo and Cláudia Macedo and Pedro Cardoso and Joana Mota and Maria João Almeida and António Pinto da Costa and Ana Pérez-Gonzalez and Jorge Mendoza and Thicianie Andrade Cavalcante and Erika Borges Fortes and Matheus de Carvalho and Marcos Eduardo Lera dos Santos and Ana Patrícia Andrade and Hélder Cardoso and Eduardo Horneaux de Moura and Cecílio Santander and Jack di Palma and José Cotter and Guilherme Macedo",
+    "year": "2025",
+    "citations": 1,
+    "journal": "The American Journal of Gastroenterology",
+    "url": "https://doi.org/10.14309/ajg.0000000000003756",
+    "volume": "121",
+    "number": "4",
+    "pages": "993-1000"
   },
   {
     "type": "article",
@@ -92,7 +105,7 @@
   },
   {
     "type": "article",
-    "key": "Mascarenhas2025-3",
+    "key": "Mascarenhas2025-4",
     "title": "Artificial intelligence and endoanal ultrasound: pioneering automated differentiation of benign anal and sphincter lesions",
     "author": "M. Mascarenhas and M. J. Almeida and M. Martins and F. Mendes and J. Mota and P. Cardoso and B. Mendes and J. Ferreira and G. Macedo and C. Poças",
     "year": "2025",
@@ -106,7 +119,7 @@
   },
   {
     "type": "article",
-    "key": "Mascarenhas2025-4",
+    "key": "Mascarenhas2025-5",
     "title": "ARTIFICIAL INTELLIGENCE FOR PANCREATIC CYST DYSPLASIA GRADING: A MULTICENTER ENDOSCOPIC ULTRASOUND STUDY",
     "author": "Miguel M. Saraiva and Belen Agudo and Francisco Mendes and Jessica L. Widmer and Tiago F. Ribeiro and Antonio Pinto da Costa and Miguel Martins and Joana Mota and Maria João Almeida and Daniel de la Iglesia and Carlos Esteban and Ana Garcia Garcia de Paredes and Maria Moris and Matheus F. de Carvalho and Marcos Eduardo Lera Dos Santos and João Ferreira and Filipe Vilas Boas and Mariano Gonzalez Haba and Eduardo G. De Moura and Guilherme Macedo",
     "year": "2025",
@@ -119,7 +132,7 @@
   },
   {
     "type": "article",
-    "key": "Mascarenhas2025-5",
+    "key": "Mascarenhas2025-6",
     "title": "ARTIFICIAL INTELLIGENCE FOR LYMPH NODE DETECTION AND MALIGNANCY PREDICTION IN ENDOSCOPIC ULTRASOUND: A MULTICENTER TRANSATLANTIC STUDY",
     "author": "Miguel M. Saraiva and Belen Agudo and Antonio Miguel M. Pinto da Costa and Tiago F. Ribeiro and João Afonso and Miguel Martins and Francisco Mendes and Joana Mota and Maria João Almeida and Daniel de la Iglesia and Carlos Esteban and Ana Garcia Garcia de Paredes and Maria Moris and Matheus F. de Carvalho and Marcos Eduardo Lera Dos Santos and João Ferreira and Jessica L. Widmer and Filipe Vilas Boas and Mariano Gonzalez Haba and Eduardo G. De Moura and Guilherme Macedo",
     "year": "2025",
@@ -132,7 +145,7 @@
   },
   {
     "type": "article",
-    "key": "Mascarenhas2025-6",
+    "key": "Mascarenhas2025-7",
     "title": "Artificial Intelligence and Endoanal Ultrasound: Pioneering Automated Differentiation of Benign Anal and Sphincter Lesions",
     "author": "M Mascarenhas and M J Almeida and M Martins and F Mendes and J Mota and C Pedro and J Ferreira and B Mendes and M Guilherme and F Poças",
     "year": "2025",
@@ -143,7 +156,7 @@
   },
   {
     "type": "article",
-    "key": "Mascarenhas2025-7",
+    "key": "Mascarenhas2025-8",
     "title": "AI-Assisted Capsule Endoscopy – First Multicentric Transatlantic Detection and Differentiation Validation Study",
     "author": "M Mascarenhas and F Mendes and J Afonso and T Ribeiro and M Martins and P Marílio Cardoso and J Mota and M J Almeida and H Cardoso and G Cúrdia and P Campelo and C Macedo and A Martins Pinto da Costa and B Rosa and J Cotter and C Santander and J D Palma and J Ferreira and M Guilherme",
     "year": "2025",
@@ -154,7 +167,7 @@
   },
   {
     "type": "article",
-    "key": "Mascarenhas2025-8",
+    "key": "Mascarenhas2025-9",
     "title": "Evaluating the Potential of Generative AI in Digestive Endoscopy: ChatGPT-4 for Advanced Image Analysis in Gastroenterology",
     "author": "M Mascarenhas and T Ribeiro and B Agudo and J Afonso and F Mendes and M Martins and P Marílio Cardoso and J Mota and M J Almeida and A Martins Pinto da Costa and M González-Haba Ruiz and J Widmer and E G Hourneaux de Moura and A Javed and T Manzione and N Sidney and L Barroso and V D Parades and J Ferreira and M Guilherme",
     "year": "2025",
@@ -176,7 +189,7 @@
   },
   {
     "type": "article",
-    "key": "GonzlezHaba2025",
+    "key": "Ruiz2025",
     "title": "Impact of biliary stricture topography on the performance of artificial intelligence algorithms for digital single-operator cholangioscopy: a multicenter, transatlantic, study",
     "author": "M González-Haba Ruiz and M Mascarenhas Saraiva and T Ribeiro and MMPD C António and F Mendes and M Martins and J P Afonso and J Mota and M J Almeida and C Pedro and B Agudo and J Ferreira and J Widmer and M Guilherme",
     "year": "2025",
@@ -433,6 +446,19 @@
   },
   {
     "type": "article",
+    "key": "Ruiz2024",
+    "title": "Artificial Intelligence for Automatic Diagnosis and Pleomorphic Morphologic Characterization of Malignant Biliary Strictures Using Digital Cholangioscopy: A Multicentric Transatlantic Study",
+    "author": "M. González-Haba Ruiz and M. Mascarenhas and J. Widmer and B. Agudo and T. Ribeiro and J. P. Afonso and M. Francisco and M. Martins and C. Pedro and F. Vilas Boas and J. Ferreira and M. Guilherme",
+    "year": "2024",
+    "citations": 0,
+    "journal": "Endoscopy",
+    "url": "https://doi.org/10.1055/s-0044-1782946",
+    "volume": "56",
+    "number": "S 02",
+    "pages": "S117"
+  },
+  {
+    "type": "article",
     "key": "Ribeiro2024-2",
     "title": "Automatic differentiation of solid pancreatic lesions in Endoscopic Ultrasound using – a multicentre study",
     "author": "T. Ribeiro and M. Mascarenhas and J. P. Afonso and M. Martins and M. Francisco and C. Pedro and J. Ferreira and B. Agudo and M. González-Haba Ruiz and F. Vilas-Boas and M. Guilherme",
@@ -443,6 +469,19 @@
     "volume": "56",
     "number": "S 02",
     "pages": "S94"
+  },
+  {
+    "type": "article",
+    "key": "Agudo2024",
+    "title": "A multicenter approach for the development of an artificial intelligence algorithm for the evaluation of pancreatic cystic lesions during endoscopic ultrasound",
+    "author": "B. Agudo and M. Mascarenhas and M. González-Haba Ruiz and T. Ribeiro and J. Ferreira and J. P. Afonso and M. Francisco and M. Martins and C. Pedro and F. Vilas Boas and M. Guilherme",
+    "year": "2024",
+    "citations": 0,
+    "journal": "Endoscopy",
+    "url": "https://doi.org/10.1055/s-0044-1782748",
+    "volume": "56",
+    "number": "S 02",
+    "pages": "S30"
   },
   {
     "type": "article",
@@ -498,6 +537,16 @@
     "volume": "38",
     "number": "4",
     "pages": "1413-1422"
+  },
+  {
+    "type": "article",
+    "key": "Maia2024",
+    "title": "DYSPHONIA AS A RARE MANIFESTATION OF DIFFUSE IDIOPATHIC SKELETAL HYPEROSTOSIS: A CASE REPORT",
+    "author": "Flavia Cristina de Freitas Maia and Marcos Tayar Augusto and Pedro Henrique Bolzani Morello and Yasmim Poltronieri Rodrigues and Jessika Cristina de Lima Ferreira and Claudia Kunyosi Pelegrini and Jéssia Sayuri Nisioka Kimura and Leifa Naiane Santos and Fernanda Lourenço Macagnani and Taísa Morete da Silva",
+    "year": "2024",
+    "citations": 0,
+    "url": "https://doi.org/10.47660/cbr.2024.2552",
+    "pages": "1"
   },
   {
     "type": "article",
@@ -833,7 +882,7 @@
     "title": "Bone: An Outstanding Composite Material",
     "author": "Natacha Rosa and Marcelo F. S. F. Moura and Susana Olhero and Ricardo Simoes and Fernão D. Magalhães and António Torres Marques and João P. S. Ferreira and Ana Rita Reis and Mariana Carvalho and Marco Parente",
     "year": "2022",
-    "citations": 48,
+    "citations": 49,
     "journal": "Applied Sciences",
     "url": "https://doi.org/10.3390/app12073381",
     "volume": "12",
@@ -1188,6 +1237,20 @@
   },
   {
     "type": "article",
+    "key": "Mascarenhas2021-10",
+    "title": "Artificial Intelligence and Capsule Endoscopy: Automatic Detection of Small Bowel Blood Content Using a Convolutional Neural Network",
+    "author": "Miguel Mascarenhas Saraiva and Tiago Ribeiro and João Afonso and João P.S. Ferreira and Hélder Cardoso and Patrícia Andrade and Marco P.L. Parente and Renato N. Jorge and Guilherme Macedo",
+    "year": "2021",
+    "citations": 26,
+    "journal": "GE Portuguese Journal of Gastroenterology",
+    "url": "https://doi.org/10.1159/000518901",
+    "eprint_url": "https://www.karger.com/Article/Pdf/518901",
+    "volume": "29",
+    "number": "5",
+    "pages": "331-338"
+  },
+  {
+    "type": "article",
     "key": "Saraiva2021",
     "title": "Artificial intelligence and colon capsule endoscopy: development of an automated diagnostic system of protruding lesions in colon capsule endoscopy",
     "author": "M. M. Saraiva and J. P. S. Ferreira and H. Cardoso and J. Afonso and T. Ribeiro and P. Andrade and M. P. L. Parente and R. N. Jorge and G. Macedo",
@@ -1198,20 +1261,6 @@
     "volume": "25",
     "number": "11",
     "pages": "1243-1248"
-  },
-  {
-    "type": "article",
-    "key": "Mascarenhas2021-10",
-    "title": "Artificial Intelligence and Capsule Endoscopy: Automatic Detection of Small Bowel Blood Content Using a Convolutional Neural Network",
-    "author": "Miguel Mascarenhas Saraiva and Tiago Ribeiro and João Afonso and João P.S. Ferreira and Hélder Cardoso and Patrícia Andrade and Marco P.L. Parente and Renato N. Jorge and Guilherme Macedo",
-    "year": "2021",
-    "citations": 25,
-    "journal": "GE Portuguese Journal of Gastroenterology",
-    "url": "https://doi.org/10.1159/000518901",
-    "eprint_url": "https://www.karger.com/Article/Pdf/518901",
-    "volume": "29",
-    "number": "5",
-    "pages": "331-338"
   },
   {
     "type": "article",
@@ -1952,5 +2001,15 @@
     "citations": 0,
     "journal": "Resumos",
     "url": "https://repositorio.usp.br/item/001347477"
+  },
+  {
+    "type": "article",
+    "key": "JeanPierre2002",
+    "title": "Le service médico-chirurgical de pathologie vasculaire",
+    "author": "Dereume, Jean-Pierre and Ferreira, José and Galle, Cécile and Motte, Serge and Wautrecht, Jean-Claude",
+    "year": "2002",
+    "citations": 0,
+    "journal": "Dépôt institutionnel de l'Université libre de Bruxelles (Université Libre de Bruxelles)",
+    "url": "http://hdl.handle.net/2013/ULB-DIPOT:oai:dipot.ulb.ac.be:2013/313815"
   }
 ]
