@@ -212,6 +212,20 @@
   },
   {
     "type": "article",
+    "key": "Mascarenhas2024-5",
+    "title": "Software as a Medical Device (SaMD) in Digestive Healthcare: Regulatory Challenges and Ethical Implications",
+    "author": "Miguel Mascarenhas and Miguel Martins and Tiago Ribeiro and João Afonso and Pedro Cardoso and Francisco Mendes and Hélder Cardoso and Rute Almeida and João Ferreira and João Fonseca and Guilherme Macedo",
+    "year": "2024",
+    "citations": 13,
+    "journal": "Diagnostics",
+    "url": "https://doi.org/10.3390/diagnostics14182100",
+    "eprint_url": "https://www.mdpi.com/2075-4418/14/18/2100/pdf?version=1727089104",
+    "volume": "14",
+    "number": "18",
+    "pages": "2100"
+  },
+  {
+    "type": "article",
     "key": "Mota2024-2",
     "title": "From Data to Insights: How Is AI Revolutionizing Small-Bowel Endoscopy?",
     "author": "Joana Mota and Maria João Almeida and Francisco Mendes and Miguel Martins and Tiago Ribeiro and João Afonso and Pedro Cardoso and Helder Cardoso and Patrícia Andrade and João Ferreira and Miguel Mascarenhas and Guilherme Macedo",
@@ -223,20 +237,6 @@
     "volume": "14",
     "number": "3",
     "pages": "291"
-  },
-  {
-    "type": "article",
-    "key": "Mascarenhas2024-5",
-    "title": "Software as a Medical Device (SaMD) in Digestive Healthcare: Regulatory Challenges and Ethical Implications",
-    "author": "Miguel Mascarenhas and Miguel Martins and Tiago Ribeiro and João Afonso and Pedro Cardoso and Francisco Mendes and Hélder Cardoso and Rute Almeida and João Ferreira and João Fonseca and Guilherme Macedo",
-    "year": "2024",
-    "citations": 12,
-    "journal": "Diagnostics",
-    "url": "https://doi.org/10.3390/diagnostics14182100",
-    "eprint_url": "https://www.mdpi.com/2075-4418/14/18/2100/pdf?version=1727089104",
-    "volume": "14",
-    "number": "18",
-    "pages": "2100"
   },
   {
     "type": "article",
@@ -1210,7 +1210,7 @@
     "title": "Artificial intelligence for automatic diagnosis of biliary stricture malignancy status in single-operator cholangioscopy: a pilot study",
     "author": "Miguel Mascarenhas Saraiva and Tiago Ribeiro and João P.S. Ferreira and Filipe Vilas Boas and João Afonso and Ana Luísa Santos and Marco P.L. Parente and Renato N. Jorge and Pedro Pereira and Guilherme Macedo",
     "year": "2021",
-    "citations": 72,
+    "citations": 73,
     "journal": "Gastrointestinal Endoscopy",
     "url": "https://doi.org/10.1016/j.gie.2021.08.027",
     "volume": "95",
