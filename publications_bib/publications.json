@@ -1,7 +1,7 @@
 [
   {
     "type": "article",
-    "key": "Mascarenhas2025-8",
+    "key": "Mascarenhas2025-9",
     "title": "Explainable AI in Digestive Healthcare and Gastrointestinal Endoscopy",
     "author": "Miguel Mascarenhas and Francisco Mendes and Miguel Martins and Tiago Ribeiro and João Afonso and Pedro Cardoso and João Ferreira and João Fonseca and Guilherme Macedo",
     "year": "2025",
@@ -12,6 +12,20 @@
     "volume": "14",
     "number": "2",
     "pages": "549"
+  },
+  {
+    "type": "article",
+    "key": "Mascarenhas2025-8",
+    "title": "Artificial intelligence for automatic diagnosis and pleomorphic morphological characterization of malignant biliary strictures using digital cholangioscopy",
+    "author": "Miguel Mascarenhas and Maria João Almeida and Mariano González-Haba and Belén Agudo Castillo and Jessica Widmer and António Costa and Yousef Fazel and Tiago Ribeiro and Francisco Mendes and Miguel Martins and João Afonso and Pedro Cardoso and Joana Mota and Joana Fernandes and João Ferreira and Filipe Vilas Boas and Pedro Pereira and Guilherme Macedo",
+    "year": "2025",
+    "citations": 10,
+    "journal": "Scientific Reports",
+    "url": "https://doi.org/10.1038/s41598-025-87279-y",
+    "eprint_url": "https://www.nature.com/articles/s41598-025-87279-y.pdf",
+    "volume": "15",
+    "number": "1",
+    "pages": "5447"
   },
   {
     "type": "article",
@@ -96,6 +110,19 @@
   {
     "type": "article",
     "key": "Mendes2025-2",
+    "title": "S870 A Ubiquitous and Interoperable Deep Learning Model for Automatic Detection of Pleomorphic Gastroesophageal Lesions",
+    "author": "Francisco Mendes and Miguel Mascarenhas Saraiva and Miguel Martins and Maria João Almeida and João Afonso and Joana Frias and Catarina Araujo and Tiago Ribeiro and Pedro Cardoso and Joana Mota and Patrícia Andrade and Hélder Cardoso and Miguel Mascarenhas Saraiva and João Ferreira and Guilherme Macedo",
+    "year": "2025",
+    "citations": 0,
+    "journal": "The American Journal of Gastroenterology",
+    "url": "https://doi.org/10.14309/01.ajg.0001130940.45524.49",
+    "volume": "120",
+    "number": "10S2",
+    "pages": "S187-S188"
+  },
+  {
+    "type": "article",
+    "key": "Mendes2025-3",
     "title": "S3034 Transforming IBD Diagnostics: A Multicenter Validation Study on Artificial Intelligence in Capsule Endoscopy",
     "author": "Francisco Mendes and Miguel Mascarenhas Saraiva and João Ferreira and João Afonso and William Sonnier and Bruno Rosa and Tiago Ribeiro and Tiago Cúrdia Gonçalves and Miguel Martins and Pedro Campelo and Claúdia Macedo and Pedro Cardoso and Joana Mota and Maria João Almeida and António Costa and Ana Peréz Gonzalez and Jorge Mendoza and Thiciane Cavalcante and Erika Fortes and Matheus Ferreira de Carvalho and Marcos Eduardo Lera dos Santos and Artur Kaffes and Robert Feller and Patrícia Andrade and Hélder Cardoso and Eduardo Hourneaux De Moura and Cecilio Santander and Benjamin Niland and Jack Di Palma and Jose Cotter and Guilherme Macedo",
     "year": "2025",
@@ -747,6 +774,17 @@
     "pages": "S161"
   },
   {
+    "type": "incollection",
+    "key": "Afonso2023-3",
+    "title": "Artificial intelligence: machine learning, deep learning, and applications in gastrointestinal endoscopy",
+    "author": "João Afonso and Miguel Martins and João Ferreira and Miguel Mascarenhas",
+    "year": "2023",
+    "citations": 1,
+    "journal": "Elsevier eBooks",
+    "url": "https://doi.org/10.1016/b978-0-323-99647-1.00003-4",
+    "pages": "1-10"
+  },
+  {
     "type": "article",
     "key": "Mascarenhas2023-4",
     "title": "S853 Deep Learning and Minimally Invasive Inflammatory Activity Assessment: Development and Score Correlation of a Pan-Endoscopic Convolutional Network",
@@ -957,7 +995,7 @@
     "title": "Deep Learning for Automatic Differentiation of Mucinous versus Non-Mucinous Pancreatic Cystic Lesions: A Pilot Study",
     "author": "Filipe Vilas-Boas and Tiago Ribeiro and João Afonso and Hélder Cardoso and Susana Lopes and Pedro Moutinho-Ribeiro and João Ferreira and Miguel Mascarenhas-Saraiva and Guilherme Macedo",
     "year": "2022",
-    "citations": 31,
+    "citations": 32,
     "journal": "Diagnostics",
     "url": "https://doi.org/10.3390/diagnostics12092041",
     "eprint_url": "https://www.mdpi.com/2075-4418/12/9/2041/pdf?version=1661326065",
@@ -1064,7 +1102,7 @@
     "title": "Biomechanical characterization of the small intestine to simulate gastrointestinal tract chyme propulsion",
     "author": "Mariana R. Carvalho and João P. S. Ferreira and Dulce A. Oliveira and Marco P. L. Parente and Renato M. Natal Jorge",
     "year": "2022",
-    "citations": 5,
+    "citations": 7,
     "journal": "International Journal for Numerical Methods in Biomedical Engineering",
     "url": "https://doi.org/10.1002/cnm.3588",
     "volume": "38",
@@ -1341,7 +1379,7 @@
   },
   {
     "type": "article",
-    "key": "Ribeiro2021",
+    "key": "Ribeiro2021-2",
     "title": "Automatic Identification of Papillary Projections in Indeterminate Biliary Strictures Using Digital Single-Operator Cholangioscopy",
     "author": "Tiago Ribeiro and Miguel Mascarenhas Saraiva and João Afonso and João P. S. Ferreira and Filipe Vilas Boas and Marco P. L. Parente and Renato N. Jorge and Pedro Pereira and Guilherme Macedo",
     "year": "2021",
@@ -1419,7 +1457,7 @@
   },
   {
     "type": "article",
-    "key": "Ribeiro2021-4",
+    "key": "Ribeiro2021-5",
     "title": "P113 Automatic detection of colonic ulcers and erosions in colon capsule endoscopy images using a convolutional neural network",
     "author": "T Ribeiro and M Mascarenhas Saraiva and J Afonso and H Cardoso and J Ferreira and P Andrade and R Jorge and S Lopes and G Macedo",
     "year": "2021",
@@ -1484,6 +1522,16 @@
   },
   {
     "type": "article",
+    "key": "Ribeiro2021",
+    "title": "Inteligência Artificial e Colonoscopia por Cápsula: Deteção Automática de Sangue e Outras Lesões da Mucosa do Cólon Através de uma Rede Neural Convolucional",
+    "author": "T. Ribeiro and M. Mascarenhas and J. Afonso and J. Ferreira and H. Cardoso and P. Andrade and M. M. Saraiva and G. Macedo",
+    "year": "2021",
+    "citations": 0,
+    "journal": "Journal of Coloproctology",
+    "url": "https://doi.org/10.1055/s-0041-1741853"
+  },
+  {
+    "type": "article",
     "key": "Mascarenhas2021-5",
     "title": "S18 Deep Learning and Digital Single-Operator Cholangioscopy: Automatic Detection and Classification of Malignant Biliary Masses in Patients With Indeterminate Biliary Strictures",
     "author": "Miguel Mascarenhas and Tiago Ribeiro and Joao Afonso and João Ferreira and Filipe Vilas Boas and Hélder Cardoso and Renato Natal and Pedro Pereira and Guilherme Macedo",
@@ -1523,7 +1571,7 @@
   },
   {
     "type": "article",
-    "key": "Ribeiro2021-2",
+    "key": "Ribeiro2021-3",
     "title": "S1357 Artificial Intelligence and Capsule Endoscopy: Automatic Detection of Small Bowel Lymphangiectasia and Xanthomas Using a Convolutional Neural Network",
     "author": "Tiago Ribeiro and Miguel Mascarenhas and Joao Afonso and João Ferreira and Hélder Cardoso and Patrícia Andrade and Marco Parente and Renato Natal and Guilherme Macedo",
     "year": "2021",
@@ -1601,7 +1649,7 @@
   },
   {
     "type": "article",
-    "key": "Ribeiro2021-3",
+    "key": "Ribeiro2021-4",
     "title": "S87 Artificial Intelligence for Automatic Diagnosis of Biliary Strictures Malignancy Status in Single-Operator Cholangioscopy: A Proof-of-Concept Study",
     "author": "Tiago Ribeiro and Miguel Mascarenhas and Joao Afonso and João Ferreira and Filipe Vilas Boas and Marco Parente and Renato Natal and Pedro Pereira and Guilherme Macedo",
     "year": "2021",
