@@ -60,7 +60,7 @@
     "title": "Real-Life Clinical Validation of Artificial Intelligence-Assisted Detection and Differentiation of Pleomorphic Lesions in Capsule Endoscopy",
     "author": "Miguel Mascarenhas Saraiva and João Ferreira and João Afonso and Francisco Mendes and William Preston Sonnier and Bruno Rosa and Tiago Ribeiro and Tiago Cúrdia Gonçalves and Miguel Martins and Pedro Campelo and Cláudia Macedo and Pedro Cardoso and Joana Mota and Maria João Almeida and António Pinto da Costa and Ana Pérez-Gonzalez and Jorge Mendoza and Thicianie Andrade Cavalcante and Erika Borges Fortes and Matheus de Carvalho and Marcos Eduardo Lera dos Santos and Ana Patrícia Andrade and Hélder Cardoso and Eduardo Horneaux de Moura and Cecílio Santander and Jack di Palma and José Cotter and Guilherme Macedo",
     "year": "2025",
-    "citations": 1,
+    "citations": 2,
     "journal": "The American Journal of Gastroenterology",
     "url": "https://doi.org/10.14309/ajg.0000000000003756",
     "volume": "121",
@@ -256,7 +256,7 @@
     "title": "Software as a Medical Device (SaMD) in Digestive Healthcare: Regulatory Challenges and Ethical Implications",
     "author": "Miguel Mascarenhas and Miguel Martins and Tiago Ribeiro and João Afonso and Pedro Cardoso and Francisco Mendes and Hélder Cardoso and Rute Almeida and João Ferreira and João Fonseca and Guilherme Macedo",
     "year": "2024",
-    "citations": 15,
+    "citations": 16,
     "journal": "Diagnostics",
     "url": "https://doi.org/10.3390/diagnostics14182100",
     "eprint_url": "https://www.mdpi.com/2075-4418/14/18/2100/pdf?version=1727089104",
@@ -951,6 +951,19 @@
   },
   {
     "type": "article",
+    "key": "Rosa2022",
+    "title": "Bone: An Outstanding Composite Material",
+    "author": "Natacha Rosa and Marcelo F. S. F. Moura and Susana Olhero and Ricardo Simoes and Fernão D. Magalhães and António Torres Marques and João P. S. Ferreira and Ana Rita Reis and Mariana Carvalho and Marco Parente",
+    "year": "2022",
+    "citations": 50,
+    "journal": "Applied Sciences",
+    "url": "https://doi.org/10.3390/app12073381",
+    "volume": "12",
+    "number": "7",
+    "pages": "3381"
+  },
+  {
+    "type": "article",
     "key": "Mascarenhas2022-7",
     "title": "Deep learning and colon capsule endoscopy: automatic detection of blood and colonic mucosal lesions using a convolutional neural network",
     "author": "Miguel Mascarenhas and Tiago Ribeiro and João Afonso and João P.S. Ferreira and Hélder Cardoso and Patrícia Andrade and Marco P.L. Parente and Renato N. Jorge and Miguel Mascarenhas Saraiva and Guilherme Macedo",
@@ -962,19 +975,6 @@
     "volume": "10",
     "number": "02",
     "pages": "E171-E177"
-  },
-  {
-    "type": "article",
-    "key": "Rosa2022",
-    "title": "Bone: An Outstanding Composite Material",
-    "author": "Natacha Rosa and Marcelo F. S. F. Moura and Susana Olhero and Ricardo Simoes and Fernão D. Magalhães and António Torres Marques and João P. S. Ferreira and Ana Rita Reis and Mariana Carvalho and Marco Parente",
-    "year": "2022",
-    "citations": 49,
-    "journal": "Applied Sciences",
-    "url": "https://doi.org/10.3390/app12073381",
-    "volume": "12",
-    "number": "7",
-    "pages": "3381"
   },
   {
     "type": "article",
