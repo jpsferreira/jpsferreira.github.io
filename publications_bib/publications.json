@@ -18,7 +18,7 @@
     "title": "Explainable AI in Digestive Healthcare and Gastrointestinal Endoscopy",
     "author": "Miguel Mascarenhas and Francisco Mendes and Miguel Martins and Tiago Ribeiro and João Afonso and Pedro Cardoso and João Ferreira and João Fonseca and Guilherme Macedo",
     "year": "2025",
-    "citations": 20,
+    "citations": 22,
     "journal": "Journal of Clinical Medicine",
     "url": "https://doi.org/10.3390/jcm14020549",
     "eprint_url": "https://www.mdpi.com/2077-0383/14/2/549/pdf?version=1737025509",
@@ -32,7 +32,7 @@
     "title": "Artificial intelligence for automatic diagnosis and pleomorphic morphological characterization of malignant biliary strictures using digital cholangioscopy",
     "author": "Miguel Mascarenhas and Maria João Almeida and Mariano González-Haba and Belén Agudo Castillo and Jessica Widmer and António Costa and Yousef Fazel and Tiago Ribeiro and Francisco Mendes and Miguel Martins and João Afonso and Pedro Cardoso and Joana Mota and Joana Fernandes and João Ferreira and Filipe Vilas Boas and Pedro Pereira and Guilherme Macedo",
     "year": "2025",
-    "citations": 11,
+    "citations": 12,
     "journal": "Scientific Reports",
     "url": "https://doi.org/10.1038/s41598-025-87279-y",
     "eprint_url": "https://www.nature.com/articles/s41598-025-87279-y.pdf",
@@ -951,6 +951,20 @@
   },
   {
     "type": "article",
+    "key": "Mascarenhas2022-7",
+    "title": "Deep learning and colon capsule endoscopy: automatic detection of blood and colonic mucosal lesions using a convolutional neural network",
+    "author": "Miguel Mascarenhas and Tiago Ribeiro and João Afonso and João P.S. Ferreira and Hélder Cardoso and Patrícia Andrade and Marco P.L. Parente and Renato N. Jorge and Miguel Mascarenhas Saraiva and Guilherme Macedo",
+    "year": "2022",
+    "citations": 52,
+    "journal": "Endoscopy International Open",
+    "url": "https://doi.org/10.1055/a-1675-1941",
+    "eprint_url": "http://www.thieme-connect.de/products/ejournals/pdf/10.1055/a-1675-1941.pdf",
+    "volume": "10",
+    "number": "02",
+    "pages": "E171-E177"
+  },
+  {
+    "type": "article",
     "key": "Rosa2022",
     "title": "Bone: An Outstanding Composite Material",
     "author": "Natacha Rosa and Marcelo F. S. F. Moura and Susana Olhero and Ricardo Simoes and Fernão D. Magalhães and António Torres Marques and João P. S. Ferreira and Ana Rita Reis and Mariana Carvalho and Marco Parente",
@@ -961,20 +975,6 @@
     "volume": "12",
     "number": "7",
     "pages": "3381"
-  },
-  {
-    "type": "article",
-    "key": "Mascarenhas2022-7",
-    "title": "Deep learning and colon capsule endoscopy: automatic detection of blood and colonic mucosal lesions using a convolutional neural network",
-    "author": "Miguel Mascarenhas and Tiago Ribeiro and João Afonso and João P.S. Ferreira and Hélder Cardoso and Patrícia Andrade and Marco P.L. Parente and Renato N. Jorge and Miguel Mascarenhas Saraiva and Guilherme Macedo",
-    "year": "2022",
-    "citations": 50,
-    "journal": "Endoscopy International Open",
-    "url": "https://doi.org/10.1055/a-1675-1941",
-    "eprint_url": "http://www.thieme-connect.de/products/ejournals/pdf/10.1055/a-1675-1941.pdf",
-    "volume": "10",
-    "number": "02",
-    "pages": "E171-E177"
   },
   {
     "type": "article",
@@ -1165,20 +1165,6 @@
   },
   {
     "type": "article",
-    "key": "Ribeiro2022-2",
-    "title": "P156 A multicentric study on the development and application of a deep learning algorithm for automatic detection of ulcers and erosions in the novel PillCam™ Crohn’s capsule",
-    "author": "T Ribeiro and M Mascarenhas and J Afonso and H Cardoso and A P Andrade and S Lopes and M Mascarenhas Saraiva and J Ferreira and G Macedo",
-    "year": "2022",
-    "citations": 1,
-    "journal": "Journal of Crohn s and Colitis",
-    "url": "https://doi.org/10.1093/ecco-jcc/jjab232.284",
-    "eprint_url": "https://academic.oup.com/ecco-jcc/article-pdf/16/Supplement_1/i232/42250790/jjab232.284.pdf",
-    "volume": "16",
-    "number": "Supplement_1",
-    "pages": "i232-i234"
-  },
-  {
-    "type": "article",
     "key": "Afonso2022-5",
     "title": "DOP57 Development and validation of a convolutional neural network for the automatic detection of enteric ulcers and erosions in capsule endoscopy: A multicentric study",
     "author": "J Afonso and M Mascarenhas and T Ribeiro and P Cardoso and R Gonçalves and J Ferreira and A P Andrade and M Mascarenhas Saraiva and H Cardoso and G Macedo",
@@ -1190,6 +1176,20 @@
     "volume": "16",
     "number": "Supplement_1",
     "pages": "i105"
+  },
+  {
+    "type": "article",
+    "key": "Ribeiro2022-2",
+    "title": "P156 A multicentric study on the development and application of a deep learning algorithm for automatic detection of ulcers and erosions in the novel PillCam™ Crohn’s capsule",
+    "author": "T Ribeiro and M Mascarenhas and J Afonso and H Cardoso and A P Andrade and S Lopes and M Mascarenhas Saraiva and J Ferreira and G Macedo",
+    "year": "2022",
+    "citations": 1,
+    "journal": "Journal of Crohn s and Colitis",
+    "url": "https://doi.org/10.1093/ecco-jcc/jjab232.284",
+    "eprint_url": "https://academic.oup.com/ecco-jcc/article-pdf/16/Supplement_1/i232/42250790/jjab232.284.pdf",
+    "volume": "16",
+    "number": "Supplement_1",
+    "pages": "i232-i234"
   },
   {
     "type": "article",
@@ -1777,7 +1777,7 @@
     "pages": "562-566"
   },
   {
-    "type": "article",
+    "type": "phdthesis",
     "key": "Ferreira2020-3",
     "title": "A cell-based approach to early detect female pelvic organ prolapse",
     "author": "Ferreira, João Pedro Sousa",
