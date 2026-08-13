@@ -1,4 +1,4 @@
-name: Update Publications from OpenAlex
+name: Refresh publication citations (OpenAlex)
 
 on:
   schedule:
@@ -20,19 +20,19 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Fetch publications from OpenAlex
-        run: python fetch_publications.py
+      - name: Build publications from curated bib + OpenAlex citations
+        run: python build_publications.py
 
       - name: Check for changes
         id: changes
         run: |
-          git diff --quiet publications_bib/publications.json publications_bib/scholar_stats.json || echo "changed=true" >> "$GITHUB_OUTPUT"
+          git diff --quiet publications_bib/publications.json publications_bib/stats.json || echo "changed=true" >> "$GITHUB_OUTPUT"
 
       - name: Commit and push
         if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add publications_bib/publications.json publications_bib/scholar_stats.json
-          git commit -m "Update publications from OpenAlex [automated]"
+          git add publications_bib/publications.json publications_bib/stats.json
+          git commit -m "Refresh publication citations [automated]"
           git push
