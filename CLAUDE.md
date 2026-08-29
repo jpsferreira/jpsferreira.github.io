@@ -40,7 +40,7 @@ The publication list is **curated in the jpsferreira/cv repo** (`data/mypubs.bib
 cp ~/cv/data/mypubs.bib ~/cv/data/pub_categories.yaml publications_bib/
 python3 build_publications.py
 ```
-`build_publications.py` parses the bib, groups entries by category with the same stable descending IDs as the CV (A92…A1, PAT8…PAT1, …), enriches with OpenAlex per-DOI citation counts + author stats (h-index etc.), and writes `publications_bib/publications.json` + `publications_bib/stats.json`, which `publications.js` renders client-side (search/filter/sort, patents included).
+`build_publications.py` parses the bib, groups entries by category with the same stable descending IDs as the CV (A92…A1, PAT8…PAT1, …), enriches with OpenAlex per-DOI citation counts and author stats from Google Scholar (h-index, citations, i10; falls back to OpenAlex if Scholar blocks), and writes `publications_bib/publications.json` + `publications_bib/stats.json`, which `publications.js` renders client-side (search/filter/sort, patents included).
 
 ### Styling
 - Single stylesheet: `assets/css/modern.css` with CSS custom properties

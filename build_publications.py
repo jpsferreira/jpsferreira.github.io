@@ -26,6 +26,7 @@ from datetime import date
 from pathlib import Path
 
 OPENALEX_AUTHOR_ID = "A5001239416"
+SCHOLAR_USER = "4evUtFkAAAAJ"
 MAILTO = "jpsferreira@protonmail.com"
 BIB_FILE = Path("publications_bib/mypubs.bib")
 CATEGORIES_FILE = Path("publications_bib/pub_categories.yaml")
@@ -165,6 +166,25 @@ def fetch_citations(dois):
     return cites
 
 
+def fetch_scholar_stats():
+    """Google Scholar profile numbers (citations, h-index, i10 — all-time). Best effort:
+    Scholar has no API and may block; returns {} on any failure."""
+    try:
+        req = urllib.request.Request(
+            f"https://scholar.google.com/citations?user={SCHOLAR_USER}&hl=en",
+            headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                                   "AppleWebKit/537.36 Chrome/120 Safari/537.36"})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            html = r.read().decode("utf-8", "replace")
+        nums = re.findall(r'gsc_rsb_std">(\d+)', html)  # cites, cites5y, h, h5y, i10, i10_5y
+        if len(nums) >= 5:
+            return {"scholar_citations": int(nums[0]), "scholar_h_index": int(nums[2]),
+                    "scholar_i10_index": int(nums[4])}
+    except Exception as e:
+        print(f"warning: Google Scholar stats failed: {e}", file=sys.stderr)
+    return {}
+
+
 def fetch_author_stats():
     try:
         a = api_get(f"https://api.openalex.org/authors/{OPENALEX_AUTHOR_ID}?mailto={MAILTO}")
@@ -186,7 +206,7 @@ def main():
             for f in bib.values() if f.get("doi")}
     print(f"bib: {len(bib)} entries, {len(dois)} with DOI; querying OpenAlex…")
     cites = fetch_citations(dois)
-    author_stats = fetch_author_stats()
+    author_stats = {**fetch_author_stats(), **fetch_scholar_stats()}
 
     pubs = []
     for cat, keys in cats.items():
@@ -228,7 +248,8 @@ def main():
         "total_publications": len(pubs),
         "articles": sum(1 for p in pubs if p["type"] == "article"),
         "patents": sum(1 for p in pubs if p["type"] == "patent"),
-        "source": "curated BibTeX (jpsferreira/cv) + OpenAlex citations",
+        "source": "curated BibTeX (jpsferreira/cv); per-paper citations OpenAlex; "
+                  "author stats Google Scholar (fallback OpenAlex)",
         "last_updated": date.today().isoformat(),
     }
 
