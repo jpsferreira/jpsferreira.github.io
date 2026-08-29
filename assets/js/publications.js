@@ -34,14 +34,17 @@ async function loadPublications() {
 
 // Update statistics from the OpenAlex-enriched stats file
 function updateStatsFromScholar(stats) {
+	// author-level numbers: Google Scholar when the build could fetch it, else OpenAlex
+	const scholar = stats.scholar_h_index !== undefined;
 	document.getElementById('total-pubs').textContent = stats.total_publications || allPublications.length;
-	document.getElementById('total-citations').textContent = stats.total_citations || 0;
-	document.getElementById('h-index').textContent = stats.h_index || 0;
-	document.getElementById('i10-index').textContent = stats.i10_index || 0;
+	document.getElementById('total-citations').textContent =
+		(scholar ? stats.scholar_citations : stats.total_citations) || 0;
+	document.getElementById('h-index').textContent = (scholar ? stats.scholar_h_index : stats.h_index) || 0;
+	document.getElementById('i10-index').textContent = (scholar ? stats.scholar_i10_index : stats.i10_index) || 0;
 
 	const updatedEl = document.getElementById('last-updated');
 	if (updatedEl && stats.last_updated) {
-		updatedEl.textContent = `Last updated: ${stats.last_updated}`;
+		updatedEl.textContent = `Last updated: ${stats.last_updated} · author stats from ${scholar ? 'Google Scholar' : 'OpenAlex'}`;
 	}
 }
 

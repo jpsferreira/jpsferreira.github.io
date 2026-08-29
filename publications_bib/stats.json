@@ -1,10 +1,13 @@
 {
- "total_citations": 1218,
+ "total_citations": 1238,
  "h_index": 21,
  "i10_index": 44,
+ "scholar_citations": 1621,
+ "scholar_h_index": 23,
+ "scholar_i10_index": 52,
  "total_publications": 249,
  "articles": 94,
  "patents": 8,
- "source": "curated BibTeX (jpsferreira/cv) + OpenAlex citations",
- "last_updated": "2026-08-13"
+ "source": "curated BibTeX (jpsferreira/cv); per-paper citations OpenAlex; author stats Google Scholar (fallback OpenAlex)",
+ "last_updated": "2026-08-29"
 }
