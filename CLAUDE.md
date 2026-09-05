@@ -49,9 +49,8 @@ python3 build_publications.py
 - Icons: FontAwesome 6.4.0 + Academicons 1.9.4
 
 ### Key JavaScript
-- `assets/js/publications.js` - Renders publications from JSON, handles filtering (type incl. patents, highly-cited), search, sorting (year/citations), stats display
-- `assets/js/main.js` - Portfolio page interactions (scroll, navigation)
+- `assets/js/publications.js` - Renders publications from JSON, handles filtering (type incl. patents, highly-cited), search, sorting (year/citations), stats display. `index.html` loads no JavaScript.
 
 ## Important Notes
-- Bio numbers in `index.html` (papers/patents counts) are hardcoded — keep them consistent with `stats.json` when syncing
-- Media in `images/` includes both source GIFs and optimized WebM videos
+- Bio facts in `index.html` (titles, papers/patents counts, supervision, funding) are hardcoded — keep them consistent with `stats.json` and the CV repo (`~/cv/content/*.yaml`) when syncing
+- `images/` holds only WebM videos and the images referenced from `index.html`; keep GIF sources out of the repo (convert with `convert_gif_to_webm.py`)
