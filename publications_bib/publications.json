@@ -4,26 +4,28 @@
   "key": "Saraiva2026-uy",
   "id": "I103",
   "category": "Indexed Papers Related to Participation in International Conferences",
-  "title": "Unmasking IBS: a deep learning model for Functional Disease detection in patients with suspected ­Inflammatory Bowel Disease",
+  "title": "P0494 Unmasking IBS: a deep learning model for Functional Disease detection in patients with suspected ­Inflammatory Bowel Disease",
   "author": "Saraiva, M and Mendes, F and Pinto da Costa, A and Mota, J and Frias, J and Araújo, C and Santos, A and Afonso, J and Cardoso, P and Ribeiro, T and Almeida, M J and Araújo Martins, M P and Chinzon, M and Werneck Ejima, G and Carvalho, M and Zatarain Valles, A and García Pravia, L and Aparicio Cabezudo, M and Horneaux de Moura, E and Constanza Ciriza, C C and Andrade, A P and Cardoso, H and Mascarenhas Saraiva, M and Mendes, B and Ferreira, João P. S. and Macedo, G",
   "year": "2026",
   "citations": 0,
   "journal": "J. Crohns. Colitis",
   "url": "https://doi.org/10.1093/ecco-jcc/jjaf231.675",
-  "volume": "20"
+  "volume": "20",
+  "number": "Supplement_1"
  },
  {
   "type": "inproceedings",
   "key": "Mendes2026-sj",
   "id": "I104",
   "category": "Indexed Papers Related to Participation in International Conferences",
-  "title": "Redefining treat-to-target in Crohn's disease: a pan-intestinal, multidevice deep learning model for the detection and differentiation of ulcers and erosions in capsule endoscopy",
+  "title": "P0220 Redefining treat-to-target in Crohn's disease: a pan-intestinal, multidevice deep learning model for the detection and differentiation of ulcers and erosions in capsule endoscopy",
   "author": "Mendes, F and Saraiva, M and Afonso, J and Frias, J and Araújo, C and Cardoso, P and Ribeiro, T and Araújo Martins, M P and Almeida, M J and Mota, J and Pinto da Costa, A and Andrade, A P and Cardoso, H and Mascarenhas Saraiva, M and Mendes, B and Ferreira, João P. S. and Macedo, G",
   "year": "2026",
   "citations": 0,
   "journal": "J. Crohns. Colitis",
   "url": "https://doi.org/10.1093/ecco-jcc/jjaf231.401",
-  "volume": "20"
+  "volume": "20",
+  "number": "Supplement_1"
  },
  {
   "type": "article",
@@ -35,9 +37,9 @@
   "year": "2026",
   "citations": 0,
   "journal": "Journal of Clinical Medicine",
-  "number": "6",
   "url": "https://doi.org/10.3390/jcm15062268",
   "volume": "15",
+  "number": "6",
   "pages": "2268"
  },
  {
@@ -75,9 +77,9 @@
   "year": "2026",
   "citations": 0,
   "journal": "Biomechanics and Modeling in Mechanobiology",
-  "number": "3",
   "url": "https://doi.org/10.1007/s10237-026-02067-5",
-  "volume": "25"
+  "volume": "25",
+  "number": "3"
  },
  {
   "type": "article",
@@ -89,9 +91,9 @@
   "year": "2026",
   "citations": 0,
   "journal": "Endosc. Int. Open",
-  "number": "CP",
   "url": "https://doi.org/10.1055/a-2778-5666",
   "volume": "14",
+  "number": "CP",
   "pages": "a27785666"
  },
  {
@@ -104,9 +106,9 @@
   "year": "2026",
   "citations": 0,
   "journal": "J. Clin. Med.",
-  "number": "1",
   "url": "https://doi.org/10.3390/jcm15010401",
   "volume": "15",
+  "number": "1",
   "pages": "401"
  },
  {
@@ -131,9 +133,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Am. J. Gastroenterol.",
-  "number": "10S2",
   "url": "https://doi.org/10.14309/01.ajg.0001126848.26757.36",
   "volume": "120",
+  "number": "10S2",
   "pages": "S21–S21"
  },
  {
@@ -146,9 +148,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Am. J. Gastroenterol.",
-  "number": "10S2",
   "url": "https://doi.org/10.14309/01.ajg.0001140816.37012.85",
   "volume": "120",
+  "number": "10S2",
   "pages": "S719–S719"
  },
  {
@@ -161,9 +163,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Am. J. Gastroenterol.",
-  "number": "10S2",
   "url": "https://doi.org/10.14309/01.ajg.0001129748.02957.10",
   "volume": "120",
+  "number": "10S2",
   "pages": "S122–S123"
  },
  {
@@ -171,13 +173,14 @@
   "key": "Cardoso2025-wd",
   "id": "I68",
   "category": "Indexed Papers Related to Participation in International Conferences",
-  "title": "shaping the future of IBD diagnostics: A multicentric AI-driven capsule endoscopy study",
+  "title": "DOP089 shaping the future of IBD diagnostics: A multicentric AI-driven capsule endoscopy study",
   "author": "Cardoso, P and Mascarenhas, M and Mendes, F and Afonso, J and Ribeiro, T and Martins, M and Mota, J and Almeida, M J and Cúrdia Gonçalves, T and Campelo, P and Macedo, C and Costa, A and Santander, C and di Palma, J and Ferreira, J and Cotter, J and Macedo, G",
   "year": "2025",
   "citations": 1,
   "journal": "J. Crohns. Colitis",
   "url": "https://doi.org/10.1093/ecco-jcc/jjae190.0128",
   "volume": "19",
+  "number": "Supplement_1",
   "pages": "i247–i247"
  },
  {
@@ -190,9 +193,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "American Journal of Gastroenterology",
-  "number": "10S2",
   "url": "https://doi.org/10.14309/01.ajg.0001139596.58511.e2",
   "volume": "120",
+  "number": "10S2",
   "pages": "S653–S653"
  },
  {
@@ -205,9 +208,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Endoscopy",
-  "number": "S 02",
   "url": "https://doi.org/10.1055/s-0045-1805281",
   "volume": "57",
+  "number": "S 02",
   "pages": "S94–S95"
  },
  {
@@ -220,9 +223,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Endoscopy",
-  "number": "S 02",
   "url": "https://doi.org/10.1055/s-0045-1805462",
   "volume": "57",
+  "number": "S 02",
   "pages": "S185–S185"
  },
  {
@@ -230,14 +233,14 @@
   "key": "Saraiva2025-ob03",
   "id": "I77",
   "category": "Indexed Papers Related to Participation in International Conferences",
-  "title": "ARTIFICIAL INTELLIGENCE DRIVEN DIAGNOSIS OF MOTILITY PATTERNS IN HIGH-RESOLUTION ESOPHAGEAL MANOMETRY – A TRANSATLANTIC MULTICENTRIC MULTIDEVICE STUDY",
+  "title": "Tu1289: ARTIFICIAL INTELLIGENCE DRIVEN DIAGNOSIS OF MOTILITY PATTERNS IN HIGH-RESOLUTION ESOPHAGEAL MANOMETRY – A TRANSATLANTIC MULTICENTRIC MULTIDEVICE STUDY",
   "author": "Saraiva, Miguel M and Mendes, Francisco and Cordeiro, João Rala and Mota, Joana and Martins, Miguel and Cardoso, Pedro and da Costa, Antonio Miguel M Pinto and Martinez, Ismael e and Royo, Virginia Matallana and Niland, Benjamin and Di Palma, Jack and Ferreira, João and Macedo, Guilherme and Santander, Cecilio",
   "year": "2025",
   "citations": 0,
   "journal": "Gastroenterology",
-  "number": "1",
   "url": "https://doi.org/10.1016/s0016-5085(25)04081-8",
   "volume": "169",
+  "number": "1",
   "pages": "S–1390–S–1391"
  },
  {
@@ -245,14 +248,14 @@
   "key": "Cardoso2025-ei07",
   "id": "I78",
   "category": "Indexed Papers Related to Participation in International Conferences",
-  "title": "DEEP LEARNING AND AUTOMATIC CAPSULE ENDOSCOPY SEGMENTATION – A STEP TOWARDS AI-ASSISTED CAPSULE PANENDOSCOPY",
+  "title": "Sa2061: DEEP LEARNING AND AUTOMATIC CAPSULE ENDOSCOPY SEGMENTATION – A STEP TOWARDS AI-ASSISTED CAPSULE PANENDOSCOPY",
   "author": "Cardoso, Pedro and Saraiva, Miguel M and Mendes, Francisco and Afonso, João and Martins, Miguel and Almeida, Maria João and Mota, Joana and Andrade, Patrícia and Cardoso, Hélder and Fernandes, Joana and Ferreira, João and Saraiva, Miguel Mascarenhas and Macedo, Guilherme",
   "year": "2025",
   "citations": 0,
   "journal": "Gastroenterology",
-  "number": "1",
   "url": "https://doi.org/10.1016/s0016-5085(25)02400-x",
   "volume": "169",
+  "number": "1",
   "pages": "S–636–S–637"
  },
  {
@@ -265,9 +268,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Gastrointest. Endosc.",
-  "number": "5",
   "url": "https://doi.org/10.1016/j.gie.2025.03.057",
   "volume": "101",
+  "number": "5",
   "pages": "S31"
  },
  {
@@ -280,9 +283,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Gastrointest. Endosc.",
-  "number": "5",
   "url": "https://doi.org/10.1016/j.gie.2025.03.031",
   "volume": "101",
+  "number": "5",
   "pages": "S14–S15"
  },
  {
@@ -295,9 +298,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Gastrointest. Endosc.",
-  "number": "5",
   "url": "https://doi.org/10.1016/j.gie.2025.03.011",
   "volume": "101",
+  "number": "5",
   "pages": "S3–S4"
  },
  {
@@ -310,9 +313,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Gastrointest. Endosc.",
-  "number": "5",
   "url": "https://doi.org/10.1016/j.gie.2025.03.076",
   "volume": "101",
+  "number": "5",
   "pages": "S41–S42"
  },
  {
@@ -325,9 +328,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Gastrointest. Endosc.",
-  "number": "5",
   "url": "https://doi.org/10.1016/j.gie.2025.03.032",
   "volume": "101",
+  "number": "5",
   "pages": "S15"
  },
  {
@@ -340,9 +343,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Gastrointest. Endosc.",
-  "number": "5",
   "url": "https://doi.org/10.1016/j.gie.2025.03.030",
   "volume": "101",
+  "number": "5",
   "pages": "S13–S14"
  },
  {
@@ -355,9 +358,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Gastrointest. Endosc.",
-  "number": "5",
   "url": "https://doi.org/10.1016/j.gie.2025.03.101",
   "volume": "101",
+  "number": "5",
   "pages": "S55"
  },
  {
@@ -370,9 +373,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Gastrointest. Endosc.",
-  "number": "5",
   "url": "https://doi.org/10.1016/j.gie.2025.03.061",
   "volume": "101",
+  "number": "5",
   "pages": "S33–S34"
  },
  {
@@ -385,9 +388,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Gastrointest. Endosc.",
-  "number": "5",
   "url": "https://doi.org/10.1016/j.gie.2025.03.010",
   "volume": "101",
+  "number": "5",
   "pages": "S2–S3"
  },
  {
@@ -400,9 +403,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Endoscopy",
-  "number": "S 02",
   "url": "https://doi.org/10.1055/s-0045-1805316",
   "volume": "57",
+  "number": "S 02",
   "pages": "S112–S113"
  },
  {
@@ -415,9 +418,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Endoscopy",
-  "number": "S 02",
   "url": "https://doi.org/10.1055/s-0045-1805185",
   "volume": "57",
+  "number": "S 02",
   "pages": "S48–S48"
  },
  {
@@ -430,9 +433,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Endoscopy",
-  "number": "S 02",
   "url": "https://doi.org/10.1055/s-0045-1805183",
   "volume": "57",
+  "number": "S 02",
   "pages": "S47–S47"
  },
  {
@@ -445,9 +448,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Endoscopy",
-  "number": "S 02",
   "url": "https://doi.org/10.1055/s-0045-1805169",
   "volume": "57",
+  "number": "S 02",
   "pages": "S41–S41"
  },
  {
@@ -460,9 +463,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Endoscopy",
-  "number": "S 02",
   "url": "https://doi.org/10.1055/s-0045-1805281",
   "volume": "57",
+  "number": "S 02",
   "pages": "S94–S95"
  },
  {
@@ -475,9 +478,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Endoscopy",
-  "number": "S 02",
   "url": "https://doi.org/10.1055/s-0045-1806335",
   "volume": "57",
+  "number": "S 02",
   "pages": "S514–S515"
  },
  {
@@ -490,9 +493,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Endoscopy",
-  "number": "S 02",
   "url": "https://doi.org/10.1055/s-0045-1805462",
   "volume": "57",
+  "number": "S 02",
   "pages": "S185–S185"
  },
  {
@@ -505,9 +508,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Endoscopy",
-  "number": "S 02",
   "url": "https://doi.org/10.1055/s-0045-1806337",
   "volume": "57",
+  "number": "S 02",
   "pages": "S515–S516"
  },
  {
@@ -520,9 +523,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Am. J. Gastroenterol.",
-  "number": "10S2",
   "url": "https://doi.org/10.14309/01.ajg.0001140560.38044.6b",
   "volume": "120",
+  "number": "10S2",
   "pages": "S705–S705"
  },
  {
@@ -535,9 +538,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Am. J. Gastroenterol.",
-  "number": "10S2",
   "url": "https://doi.org/10.14309/01.ajg.0001127412.10674.0b",
   "volume": "120",
+  "number": "10S2",
   "pages": "S50–S50"
  },
  {
@@ -550,9 +553,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Am. J. Gastroenterol.",
-  "number": "10S2",
   "url": "https://doi.org/10.14309/01.ajg.0001126660.87473.cc",
   "volume": "120",
+  "number": "10S2",
   "pages": "S11–S11"
  },
  {
@@ -565,9 +568,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Am. J. Gastroenterol.",
-  "number": "10S2",
   "url": "https://doi.org/10.14309/01.ajg.0001129344.47663.50",
   "volume": "120",
+  "number": "10S2",
   "pages": "S101–S101"
  },
  {
@@ -580,9 +583,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Appl. Sci. (Basel)",
-  "number": "2",
   "url": "https://doi.org/10.3390/app15020709",
   "volume": "15",
+  "number": "2",
   "pages": "709"
  },
  {
@@ -595,9 +598,9 @@
   "year": "2025",
   "citations": 2,
   "journal": "Tech. Innov. Gastrointest. Endosc.",
-  "number": "1",
   "url": "https://doi.org/10.1016/j.tige.2024.250902",
   "volume": "27",
+  "number": "1",
   "pages": "250902"
  },
  {
@@ -610,9 +613,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Sci. Rep.",
-  "number": "1",
   "url": "https://doi.org/10.1038/s41598-024-83768-8",
   "volume": "15",
+  "number": "1",
   "pages": "2061"
  },
  {
@@ -625,9 +628,9 @@
   "year": "2025",
   "citations": 26,
   "journal": "J. Clin. Med.",
-  "number": "2",
   "url": "https://doi.org/10.3390/jcm14020549",
-  "volume": "14"
+  "volume": "14",
+  "number": "2"
  },
  {
   "type": "article",
@@ -639,9 +642,9 @@
   "year": "2025",
   "citations": 12,
   "journal": "MDPI AG",
-  "number": "2",
   "url": "https://doi.org/10.3390/jcm14020572",
   "volume": "14",
+  "number": "2",
   "pages": "572"
  },
  {
@@ -654,9 +657,9 @@
   "year": "2025",
   "citations": 26,
   "journal": "Sci. Rep.",
-  "number": "1",
   "url": "https://doi.org/10.3390/jcm14020549",
   "volume": "15",
+  "number": "1",
   "pages": "5447"
  },
  {
@@ -669,9 +672,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Proceedings of the Institution of Mechanical Engineers, Part L",
-  "number": "0",
   "url": "https://doi.org/10.1177/14644207251330497",
-  "volume": "0"
+  "volume": "0",
+  "number": "0"
  },
  {
   "type": "article",
@@ -683,9 +686,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Tech. Coloproctol.",
-  "number": "1",
   "url": "https://doi.org/10.1007/s10151-025-03160-0",
   "volume": "29",
+  "number": "1",
   "pages": "132"
  },
  {
@@ -698,9 +701,9 @@
   "year": "2025",
   "citations": 1,
   "journal": "Sci. Rep.",
-  "number": "1",
   "url": "https://doi.org/10.1038/s41598-025-03397-7",
   "volume": "15",
+  "number": "1",
   "pages": "22889"
  },
  {
@@ -725,9 +728,9 @@
   "year": "2025",
   "citations": 2,
   "journal": "BMJ Open Gastroenterol.",
-  "number": "1",
   "url": "https://doi.org/10.1136/bmjgast-2025-001906",
   "volume": "12",
+  "number": "1",
   "pages": "e001906"
  },
  {
@@ -752,9 +755,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "J. Clin. Med.",
-  "number": "19",
   "url": "https://doi.org/10.3390/jcm14197065",
   "volume": "14",
+  "number": "19",
   "pages": "7065"
  },
  {
@@ -767,9 +770,9 @@
   "year": "2025",
   "citations": 8,
   "journal": "Sci. Rep.",
-  "number": "1",
   "url": "https://doi.org/10.1038/s41598-025-14514-x",
   "volume": "15",
+  "number": "1",
   "pages": "33068"
  },
  {
@@ -782,9 +785,9 @@
   "year": "2025",
   "citations": 1,
   "journal": "BMJ Open Gastroenterol.",
-  "number": "1",
   "url": "https://doi.org/10.1136/bmjgast-2024-001655",
   "volume": "12",
+  "number": "1",
   "pages": "e001655"
  },
  {
@@ -809,9 +812,9 @@
   "year": "2025",
   "citations": 0,
   "journal": "Cancers (Basel)",
-  "number": "15",
   "url": "https://doi.org/10.3390/cancers17155559",
   "volume": "17",
+  "number": "15",
   "pages": "2559"
  },
  {
@@ -819,13 +822,14 @@
   "key": "araujo2024p268",
   "id": "I52",
   "category": "Indexed Papers Related to Participation in International Conferences",
-  "title": "Artificial Intelligence and Panendoscopy - Automatic Detection of Pleomorphic Lesions in Multibrand Device-Assisted Enteroscopy",
+  "title": "P268 Artificial Intelligence and Panendoscopy - Automatic Detection of Pleomorphic Lesions in Multibrand Device-Assisted Enteroscopy",
   "author": "Araújo Martins, MP and Mascarenhas, M and Afonso, J and Ribeiro, T and Cardoso, P and Mendes, F and Cardoso, H and Andrande, P and Mascarenhas Saraiva, M and Ferreira, J and others",
   "year": "2024",
   "citations": 0,
   "journal": "Journal of Crohn's and Colitis",
   "url": "https://doi.org/10.1093/ecco-jcc/jjad212.0398",
   "volume": "18",
+  "number": "Supplement_1",
   "pages": "i631–i632"
  },
  {
@@ -833,13 +837,14 @@
   "key": "cardoso0331a",
   "id": "I53",
   "category": "Indexed Papers Related to Participation in International Conferences",
-  "title": "Deep learning and minimally invasive inflammatory activity assessment: development and score correlation of a pan endoscopy convolutional network",
+  "title": "P201 Deep learning and minimally invasive inflammatory activity assessment: development and score correlation of a pan endoscopy convolutional network",
   "author": "Cardoso, P and Mascarenhas, M and Afonso, J and Ribeiro, T and Mendes, F and Martins, M and Andrade, P and Cardoso, H and Mascarenhas Saraiva, M and Ferreira, J and Lopes, S and Macedo, G",
   "year": "2024",
   "citations": 0,
   "journal": "Journal of Crohns and Colitis",
   "url": "https://doi.org/10.1093/ecco-jcc/jjad212.0331",
   "volume": "18",
+  "number": "Supplement_1",
   "pages": "i520–i521"
  },
  {
@@ -847,13 +852,14 @@
   "key": "mendes2024p469",
   "id": "I54",
   "category": "Indexed Papers Related to Participation in International Conferences",
-  "title": "Deep learning and minimally invasive endoscopy–panendoscopic detection of pleomorphic lesions",
+  "title": "P469 Deep learning and minimally invasive endoscopy–panendoscopic detection of pleomorphic lesions",
   "author": "Mendes, F and Mascarenhas, M and Ribeiro, T and Afonso, J and Cardoso, P and Martins, M and Cardoso, H and Andrade, P and Mascarenhas Saraiva, M and Ferreira, J and others",
   "year": "2024",
   "citations": 0,
   "journal": "Journal of Crohn's and Colitis",
   "url": "https://doi.org/10.1093/ecco-jcc/jjad212.0599",
   "volume": "18",
+  "number": "Supplement_1",
   "pages": "i942–i943"
  },
  {
@@ -861,13 +867,14 @@
   "key": "cardoso2024p201",
   "id": "I55",
   "category": "Indexed Papers Related to Participation in International Conferences",
-  "title": "Deep learning and minimally invasive inflammatory activity assessment: development and score correlation of a pan endoscopy convolutional network",
+  "title": "P201 Deep learning and minimally invasive inflammatory activity assessment: development and score correlation of a pan endoscopy convolutional network",
   "author": "Cardoso, P and Mascarenhas, M and Afonso, J and Ribeiro, T and Mendes, F and Martins, M and Andrade, P and Cardoso, H and Mascarenhas Saraiva, M and Ferreira, J and Lopes, S and Macedo, G",
   "year": "2024",
   "citations": 0,
   "journal": "Journal of Crohn's and Colitis",
   "url": "https://doi.org/10.1093/ecco-jcc/jjad212.0331",
   "volume": "18",
+  "number": "Supplement_1",
   "pages": "i520–i521"
  },
  {
@@ -916,9 +923,9 @@
   "year": "2024",
   "citations": 2,
   "journal": "Gastrointest. Endosc.",
-  "number": "6",
   "url": "https://doi.org/10.1016/j.gie.2024.04.650",
   "volume": "99",
+  "number": "6",
   "pages": "AB8"
  },
  {
@@ -931,9 +938,9 @@
   "year": "2024",
   "citations": 1,
   "journal": "Gastrointest. Endosc.",
-  "number": "6",
   "url": "https://doi.org/10.1016/j.gie.2024.04.671",
   "volume": "99",
+  "number": "6",
   "pages": "AB20–AB21"
  },
  {
@@ -941,14 +948,14 @@
   "key": "Saraiva2024-cm",
   "id": "I61",
   "category": "Indexed Papers Related to Participation in International Conferences",
-  "title": "deep learning and high-resolution anoscopy: development of an interoperable artificial intelligence model for the detection and differentiation of anal squamous cell carcinoma precursors – A multicentric study",
+  "title": "Mo1207 deep learning and high-resolution anoscopy: development of an interoperable artificial intelligence model for the detection and differentiation of anal squamous cell carcinoma precursors – A multicentric study",
   "author": "Saraiva, Miguel M and Spindler, Lucas and Manzione, Thiago and Fathallah, Nadia and Ribeiro, Tiago F and Afonso, João and Mendes, Francisco and Martins, Miguel and Cardoso, Pedro and Ferreira, João and Macedo, Guilherme and Nadal, Sidney R and de Parades, Vincent",
   "year": "2024",
   "citations": 0,
   "journal": "Gastroenterology",
-  "number": "5",
   "url": "https://doi.org/10.1016/s0016-5085(24)02726-4",
   "volume": "166",
+  "number": "5",
   "pages": "S–979"
  },
  {
@@ -956,14 +963,14 @@
   "key": "Ribeiro2024-bb",
   "id": "I62",
   "category": "Indexed Papers Related to Participation in International Conferences",
-  "title": "deep learning and minimally invasive endoscopy – panendoscopic detection of pleomorphic lesions",
+  "title": "Tu2000 deep learning and minimally invasive endoscopy – panendoscopic detection of pleomorphic lesions",
   "author": "Ribeiro, Tiago F and Saraiva, Miguel M and Afonso, João and Cardoso, Pedro and Mendes, Francisco and Martins, Miguel and Andrade, Patrícia and Cardoso, Hélder and Ferreira, João and Saraiva, Miguel and Macedo, Guilherme",
   "year": "2024",
   "citations": 0,
   "journal": "Gastroenterology",
-  "number": "5",
   "url": "https://doi.org/10.1016/s0016-5085(24)03857-5",
   "volume": "166",
+  "number": "5",
   "pages": "S–1486"
  },
  {
@@ -976,9 +983,9 @@
   "year": "2024",
   "citations": 0,
   "journal": "American Journal of Gastroenterology",
-  "number": "10S",
   "url": "https://doi.org/10.14309/01.ajg.0001028372.84020.0d",
   "volume": "119",
+  "number": "10S",
   "pages": "S1–S1"
  },
  {
@@ -991,9 +998,9 @@
   "year": "2024",
   "citations": 0,
   "journal": "American Journal of Gastroenterology",
-  "number": "10S",
   "url": "https://doi.org/10.14309/01.ajg.0001028376.47767.fe",
   "volume": "119",
+  "number": "10S",
   "pages": "S1–S2"
  },
  {
@@ -1006,9 +1013,9 @@
   "year": "2024",
   "citations": 0,
   "journal": "American Journal of Gastroenterology",
-  "number": "10S",
   "url": "https://doi.org/10.14309/01.ajg.0001038376.23171.50",
   "volume": "119",
+  "number": "10S",
   "pages": "S1608–S1609"
  },
  {
@@ -1021,9 +1028,9 @@
   "year": "2024",
   "citations": 0,
   "journal": "American Journal of Gastroenterology",
-  "number": "10S",
   "url": "https://doi.org/10.14309/01.ajg.0001030736.76025.d9",
   "volume": "119",
+  "number": "10S",
   "pages": "S241–S241"
  },
  {
@@ -1036,9 +1043,9 @@
   "year": "2024",
   "citations": 0,
   "journal": "American Journal of Gastroenterology",
-  "number": "10S",
   "url": "https://doi.org/10.14309/01.ajg.0001032620.14140.41",
   "volume": "119",
+  "number": "10S",
   "pages": "S558–S558"
  },
  {
@@ -1051,9 +1058,9 @@
   "year": "2024",
   "citations": 0,
   "journal": "J. Coloproctology",
-  "number": "S 01",
   "url": "https://doi.org/10.1055/s-0045-1808860",
   "volume": "44",
+  "number": "S 01",
   "pages": "S1–S138"
  },
  {
@@ -1066,9 +1073,9 @@
   "year": "2024",
   "citations": 0,
   "journal": "J. Coloproctology",
-  "number": "S 01",
   "url": "https://doi.org/10.1055/s-0045-1808877",
   "volume": "44",
+  "number": "S 01",
   "pages": "S1–S138"
  },
  {
@@ -1081,9 +1088,9 @@
   "year": "2024",
   "citations": 0,
   "journal": "J. Coloproctology",
-  "number": "S 01",
   "url": "https://doi.org/10.1055/s-0045-1808886",
   "volume": "44",
+  "number": "S 01",
   "pages": "S1–S138"
  },
  {
@@ -1096,9 +1103,9 @@
   "year": "2024",
   "citations": 0,
   "journal": "J. Coloproctology",
-  "number": "S 01",
   "url": "https://doi.org/10.1055/s-0045-1808894",
   "volume": "44",
+  "number": "S 01",
   "pages": "S1–S138"
  },
  {
@@ -1111,9 +1118,9 @@
   "year": "2024",
   "citations": 0,
   "journal": "J. Coloproctology",
-  "number": "S 01",
   "url": "https://doi.org/10.1055/s-0045-1808887",
   "volume": "44",
+  "number": "S 01",
   "pages": "S1–S138"
  },
  {
@@ -1126,9 +1133,9 @@
   "year": "2024",
   "citations": 10,
   "journal": "Clinical and Translational Gastroenterology",
-  "number": "11",
   "url": "https://doi.org/10.14309/ctg.0000000000000771",
   "volume": "15",
+  "number": "11",
   "pages": "e00771"
  },
  {
@@ -1141,9 +1148,9 @@
   "year": "2024",
   "citations": 21,
   "journal": "Diagnostics",
-  "number": "18",
   "url": "https://doi.org/10.3390/diagnostics14182100",
   "volume": "14",
+  "number": "18",
   "pages": "2100"
  },
  {
@@ -1156,9 +1163,9 @@
   "year": "2024",
   "citations": 4,
   "journal": "Journal of Clinical Medicine",
-  "number": "19",
   "url": "https://doi.org/10.3390/jcm13195842",
   "volume": "13",
+  "number": "19",
   "pages": "5842"
  },
  {
@@ -1185,9 +1192,9 @@
   "year": "2024",
   "citations": 5,
   "journal": "Cancers",
-  "number": "1",
   "url": "https://doi.org/10.3390/cancers16010208",
   "volume": "16",
+  "number": "1",
   "pages": "208"
  },
  {
@@ -1212,9 +1219,9 @@
   "year": "2024",
   "citations": 15,
   "journal": "Diagnostics",
-  "number": "3",
   "url": "https://doi.org/10.3390/diagnostics14030291",
   "volume": "14",
+  "number": "3",
   "pages": "291"
  },
  {
@@ -1239,9 +1246,9 @@
   "year": "2024",
   "citations": 7,
   "journal": "Applied Sciences",
-  "number": "6",
   "url": "https://doi.org/10.3390/app14062376",
-  "volume": "14"
+  "volume": "14",
+  "number": "6"
  },
  {
   "type": "article",
@@ -1253,9 +1260,9 @@
   "year": "2024",
   "citations": 13,
   "journal": "Endosc. Int. Open",
-  "number": "4",
   "url": "https://doi.org/10.1055/a-2236-7849",
   "volume": "12",
+  "number": "4",
   "pages": "E570–E578"
  },
  {
@@ -1282,9 +1289,9 @@
   "year": "2024",
   "citations": 9,
   "journal": "Cancers (Basel)",
-  "number": "10",
   "url": "https://doi.org/10.3390/cancers16101909",
   "volume": "16",
+  "number": "10",
   "pages": "1909"
  },
  {
@@ -1297,9 +1304,9 @@
   "year": "2024",
   "citations": 11,
   "journal": "J. Clin. Med.",
-  "number": "10",
   "url": "https://doi.org/10.3390/jcm13103003",
   "volume": "13",
+  "number": "10",
   "pages": "3003"
  },
  {
@@ -1312,9 +1319,9 @@
   "year": "2024",
   "citations": 12,
   "journal": "Expert Syst. Appl.",
-  "number": "123953",
   "url": "https://doi.org/10.1016/j.eswa.2024.123953",
   "volume": "250",
+  "number": "123953",
   "pages": "123953"
  },
  {
@@ -1327,9 +1334,9 @@
   "year": "2024",
   "citations": 11,
   "journal": "Diagnostics (Basel)",
-  "number": "18",
   "url": "https://doi.org/10.3390/diagnostics14182072",
   "volume": "14",
+  "number": "18",
   "pages": "2072"
  },
  {
@@ -1342,9 +1349,9 @@
   "year": "2024",
   "citations": 8,
   "journal": "Cancers",
-  "number": "20",
   "url": "https://doi.org/10.3390/cancers16203540",
   "volume": "16",
+  "number": "20",
   "pages": "3540"
  },
  {
@@ -1357,9 +1364,9 @@
   "year": "2024",
   "citations": 3,
   "journal": "GE Port. J. Gastroenterol.",
-  "number": "6",
   "url": "https://doi.org/10.1159/000539837",
   "volume": "31",
+  "number": "6",
   "pages": "408–418"
  },
  {
@@ -1385,9 +1392,9 @@
   "year": "2023",
   "citations": 0,
   "journal": "Endoscopy",
-  "number": "S 02",
   "url": "https://doi.org/10.1055/s-0043-1765153",
   "volume": "55",
+  "number": "S 02",
   "pages": "S63–S64"
  },
  {
@@ -1412,9 +1419,9 @@
   "year": "2023",
   "citations": 3,
   "journal": "Gastrointestinal Endoscopy",
-  "number": "6",
   "url": "https://doi.org/10.1016/j.gie.2023.04.1872",
   "volume": "97",
+  "number": "6",
   "pages": "AB1240"
  },
  {
@@ -1427,9 +1434,9 @@
   "year": "2023",
   "citations": 1,
   "journal": "Gastrointestinal Endoscopy",
-  "number": "6",
   "url": "https://doi.org/10.1016/j.gie.2023.04.1252",
   "volume": "97",
+  "number": "6",
   "pages": "AB765"
  },
  {
@@ -1442,9 +1449,9 @@
   "year": "2023",
   "citations": 0,
   "journal": "Official journal of the American College of Gastroenterology| ACG",
-  "number": "10S",
   "url": "https://doi.org/10.14309/01.ajg.0000950332.28661.1f",
   "volume": "118",
+  "number": "10S",
   "pages": "S131"
  },
  {
@@ -1457,9 +1464,9 @@
   "year": "2023",
   "citations": 0,
   "journal": "Official journal of the American College of Gastroenterology| ACG",
-  "number": "10S",
   "url": "https://doi.org/10.14309/01.ajg.0000952432.35069.be",
   "volume": "118",
+  "number": "10S",
   "pages": "S511–S512"
  },
  {
@@ -1472,9 +1479,9 @@
   "year": "2023",
   "citations": 0,
   "journal": "Official journal of the American College of Gastroenterology| ACG",
-  "number": "10S",
   "url": "https://doi.org/10.14309/01.ajg.0000951732.24072.a3",
   "volume": "118",
+  "number": "10S",
   "pages": "S380"
  },
  {
@@ -1487,9 +1494,9 @@
   "year": "2023",
   "citations": 0,
   "journal": "Official journal of the American College of Gastroenterology| ACG",
-  "number": "10S",
   "url": "https://doi.org/10.14309/01.ajg.0000952436.94054.86",
   "volume": "118",
+  "number": "10S",
   "pages": "S512"
  },
  {
@@ -1502,9 +1509,9 @@
   "year": "2023",
   "citations": 0,
   "journal": "Official journal of the American College of Gastroenterology| ACG",
-  "number": "10S",
   "url": "https://doi.org/10.14309/01.ajg.0000952940.52276.55",
   "volume": "118",
+  "number": "10S",
   "pages": "S611"
  },
  {
@@ -1517,9 +1524,9 @@
   "year": "2023",
   "citations": 0,
   "journal": "Official journal of the American College of Gastroenterology| ACG",
-  "number": "10S",
   "url": "https://doi.org/10.14309/01.ajg.0000949668.03178.12",
   "volume": "118",
+  "number": "10S",
   "pages": "S7–S8"
  },
  {
@@ -1532,9 +1539,9 @@
   "year": "2023",
   "citations": 0,
   "journal": "Official journal of the American College of Gastroenterology| ACG",
-  "number": "10S",
   "url": "https://doi.org/10.14309/01.ajg.0000949884.08029.58",
   "volume": "118",
+  "number": "10S",
   "pages": "S53–S54"
  },
  {
@@ -1542,14 +1549,14 @@
   "key": "saraiva2023tu1673",
   "id": "I49",
   "category": "Indexed Papers Related to Participation in International Conferences",
-  "title": "MACHINE LEARNING AND ANORECTAL MANOMETRY: AUTOMATIC DETECTION AND DIFFERENTIATION OF ANORECTAL MOTILITY PATTERNS",
+  "title": "Tu1673 MACHINE LEARNING AND ANORECTAL MANOMETRY: AUTOMATIC DETECTION AND DIFFERENTIATION OF ANORECTAL MOTILITY PATTERNS",
   "author": "Saraiva, Miguel M and Pouca, Maria Vila and Ribeiro, Tiago F and Afonso, João and Cardoso, Pedro and Cardoso, Hélder and Ferreira, João and Froehner, Ilario and Macedo, Guilherme",
   "year": "2023",
   "citations": 3,
   "journal": "Gastroenterology",
-  "number": "6",
   "url": "https://doi.org/10.1016/j.gie.2023.04.1872",
   "volume": "164",
+  "number": "6",
   "pages": "S–1077"
  },
  {
@@ -1562,9 +1569,9 @@
   "year": "2023",
   "citations": 1,
   "journal": "Gastrointestinal Endoscopy",
-  "number": "6",
   "url": "https://doi.org/10.1016/j.gie.2023.04.1252",
   "volume": "97",
+  "number": "6",
   "pages": "AB765"
  },
  {
@@ -1577,9 +1584,9 @@
   "year": "2023",
   "citations": 3,
   "journal": "Gastrointestinal Endoscopy",
-  "number": "6",
   "url": "https://doi.org/10.1016/j.gie.2023.04.1872",
   "volume": "97",
+  "number": "6",
   "pages": "AB1240"
  },
  {
@@ -1629,9 +1636,9 @@
   "year": "2023",
   "citations": 15,
   "journal": "Clinical and Translational Gastroenterology",
-  "number": "10",
   "url": "https://doi.org/10.14309/ctg.0000000000000609",
   "volume": "14",
+  "number": "10",
   "pages": "e00609"
  },
  {
@@ -1644,9 +1651,9 @@
   "year": "2023",
   "citations": 6,
   "journal": "Cancers",
-  "number": "2",
   "url": "https://doi.org/10.3390/cancers15020359",
-  "volume": "15"
+  "volume": "15",
+  "number": "2"
  },
  {
   "type": "article",
@@ -1658,9 +1665,9 @@
   "year": "2023",
   "citations": 15,
   "journal": "Medicina",
-  "number": "1",
   "url": "https://doi.org/10.3390/medicina59010172",
-  "volume": "59"
+  "volume": "59",
+  "number": "1"
  },
  {
   "type": "article",
@@ -1672,9 +1679,9 @@
   "year": "2023",
   "citations": 12,
   "journal": "Medicina",
-  "number": "4",
   "url": "https://doi.org/10.3390/medicina59040810",
-  "volume": "59"
+  "volume": "59",
+  "number": "4"
  },
  {
   "type": "article",
@@ -1686,9 +1693,9 @@
   "year": "2023",
   "citations": 4,
   "journal": "Journal of Biomedical Materials Research Part B: Applied Biomaterials",
-  "number": "5",
   "url": "https://doi.org/10.1002/jbm.b.35216",
   "volume": "111",
+  "number": "5",
   "pages": "1089-1099"
  },
  {
@@ -1701,9 +1708,9 @@
   "year": "2023",
   "citations": 23,
   "journal": "Cancers",
-  "number": "19",
   "url": "https://doi.org/10.3390/cancers15194827",
   "volume": "15",
+  "number": "19",
   "pages": "4827"
  },
  {
@@ -1716,9 +1723,9 @@
   "year": "2023",
   "citations": 14,
   "journal": "Clinical and Translational Gastroenterology",
-  "number": "10",
   "url": "https://doi.org/10.14309/ctg.0000000000000555",
   "volume": "14",
+  "number": "10",
   "pages": "e00555"
  },
  {
@@ -1731,9 +1738,9 @@
   "year": "2023",
   "citations": 9,
   "journal": "Diagnostics",
-  "number": "24",
   "url": "https://doi.org/10.3390/diagnostics13243625",
   "volume": "13",
+  "number": "24",
   "pages": "3625"
  },
  {
@@ -1746,9 +1753,9 @@
   "year": "2023",
   "citations": 17,
   "journal": "Cancers",
-  "number": "24",
   "url": "https://doi.org/10.3390/cancers15245861",
   "volume": "15",
+  "number": "24",
   "pages": "5861"
  },
  {
@@ -1761,9 +1768,9 @@
   "year": "2023",
   "citations": 12,
   "journal": "Diagnostics",
-  "number": "23",
   "url": "https://doi.org/10.3390/diagnostics13233494",
   "volume": "13",
+  "number": "23",
   "pages": "3494"
  },
  {
@@ -1800,9 +1807,9 @@
   "year": "2022",
   "citations": 1,
   "journal": "American Journal of Gastroenterology",
-  "number": "10S",
   "url": "https://doi.org/10.14309/01.ajg.0000859016.17459.c6",
   "volume": "117",
+  "number": "10S",
   "pages": "e418–e419"
  },
  {
@@ -1810,13 +1817,14 @@
   "key": "Ribeiro_2022",
   "id": "I25",
   "category": "Indexed Papers Related to Participation in International Conferences",
-  "title": "A multicentric study on the development and application of a deep learning algorithm for automatic detection of ulcers and erosions in the novel PillCam™ Crohn’s capsule",
+  "title": "P156 A multicentric study on the development and application of a deep learning algorithm for automatic detection of ulcers and erosions in the novel PillCam™ Crohn’s capsule",
   "author": "Ribeiro, T and Mascarenhas, M and Afonso, J and Cardoso, H and Andrade, A P and Lopes, S and Mascarenhas Saraiva, M and Ferreira, J and Macedo, G",
   "year": "2022",
   "citations": 1,
   "journal": "Journal of Crohn’s and Colitis",
   "url": "https://doi.org/10.1093/ecco-jcc/jjab232.284",
   "volume": "16",
+  "number": "Supplement_1",
   "pages": "i232–i234"
  },
  {
@@ -1824,13 +1832,14 @@
   "key": "Afonso_2022",
   "id": "I26",
   "category": "Indexed Papers Related to Participation in International Conferences",
-  "title": "Development and validation of a convolutional neural network for the automatic detection of enteric ulcers and erosions in capsule endoscopy: A multicentric study",
+  "title": "DOP57 Development and validation of a convolutional neural network for the automatic detection of enteric ulcers and erosions in capsule endoscopy: A multicentric study",
   "author": "Afonso, J and Mascarenhas, M and Ribeiro, T and Cardoso, P and Gonçalves, R and Ferreira, J and Andrade, A P and Mascarenhas Saraiva, M and Cardoso, H and Macedo, G",
   "year": "2022",
   "citations": 1,
   "journal": "Journal of Crohn’s and Colitis",
   "url": "https://doi.org/10.1093/ecco-jcc/jjab232.096",
   "volume": "16",
+  "number": "Supplement_1",
   "pages": "i105–i105"
  },
  {
@@ -1843,9 +1852,9 @@
   "year": "2022",
   "citations": 1,
   "journal": "Gastrointestinal Endoscopy",
-  "number": "6",
   "url": "https://doi.org/10.1016/j.gie.2022.04.1156",
   "volume": "95",
+  "number": "6",
   "pages": "AB459"
  },
  {
@@ -1858,9 +1867,9 @@
   "year": "2022",
   "citations": 0,
   "journal": "Gastrointestinal Endoscopy",
-  "number": "6",
   "url": "https://doi.org/10.1016/j.gie.2022.04.818",
   "volume": "95",
+  "number": "6",
   "pages": "AB313-AB314"
  },
  {
@@ -1873,9 +1882,9 @@
   "year": "2022",
   "citations": 1,
   "journal": "Gastrointestinal Endoscopy",
-  "number": "6",
   "url": "https://doi.org/10.1016/j.gie.2022.04.1256",
   "volume": "95",
+  "number": "6",
   "pages": "AB497-AB498"
  },
  {
@@ -1888,9 +1897,9 @@
   "year": "2022",
   "citations": 0,
   "journal": "Journal of Hepatology",
-  "number": "77",
   "url": "https://doi.org/10.1016/s0168-8278(22)00470-6",
-  "volume": "S28-S29"
+  "volume": "S28-S29",
+  "number": "77"
  },
  {
   "type": "inproceedings",
@@ -1902,9 +1911,9 @@
   "year": "2022",
   "citations": 0,
   "journal": "Journal of Coloproctology",
-  "number": "S 01",
   "url": "https://doi.org/10.1055/s-0043-1764617",
   "volume": "42",
+  "number": "S 01",
   "pages": "A117"
  },
  {
@@ -1917,9 +1926,9 @@
   "year": "2022",
   "citations": 0,
   "journal": "Journal of Coloproctology",
-  "number": "S 01",
   "url": "https://doi.org/10.1055/s-0043-1764621",
   "volume": "42",
+  "number": "S 01",
   "pages": "A121"
  },
  {
@@ -1932,9 +1941,9 @@
   "year": "2022",
   "citations": 0,
   "journal": "Journal of Coloproctology",
-  "number": "S 01",
   "url": "https://doi.org/10.1055/s-0043-1764634",
   "volume": "42",
+  "number": "S 01",
   "pages": "A134"
  },
  {
@@ -1947,9 +1956,9 @@
   "year": "2022",
   "citations": 0,
   "journal": "Journal of Coloproctology",
-  "number": "S 01",
   "url": "https://doi.org/10.1055/s-0043-1764533",
   "volume": "42",
+  "number": "S 01",
   "pages": "A033"
  },
  {
@@ -1962,9 +1971,9 @@
   "year": "2022",
   "citations": 0,
   "journal": "Journal of Coloproctology",
-  "number": "S 01",
   "url": "https://doi.org/10.1055/s-0043-1764615",
   "volume": "42",
+  "number": "S 01",
   "pages": "A115"
  },
  {
@@ -1977,9 +1986,9 @@
   "year": "2022",
   "citations": 0,
   "journal": "Official journal of the American College of Gastroenterology | ACG",
-  "number": "10S",
   "url": "https://doi.org/10.14309/01.ajg.0000856740.48694.91",
-  "volume": "117"
+  "volume": "117",
+  "number": "10S"
  },
  {
   "type": "inproceedings",
@@ -1991,9 +2000,9 @@
   "year": "2022",
   "citations": 0,
   "journal": "Official journal of the American College of Gastroenterology | ACG",
-  "number": "10S",
   "url": "https://doi.org/10.14309/01.ajg.0000857176.10120.1e",
-  "volume": "117"
+  "volume": "117",
+  "number": "10S"
  },
  {
   "type": "inproceedings",
@@ -2065,9 +2074,9 @@
   "year": "2022",
   "citations": 20,
   "journal": "Diagnostics",
-  "number": "6",
   "url": "https://doi.org/10.3390/diagnostics12061445",
-  "volume": "12"
+  "volume": "12",
+  "number": "6"
  },
  {
   "type": "article",
@@ -2091,9 +2100,9 @@
   "year": "2022",
   "citations": 3,
   "journal": "Applied Sciences",
-  "number": "5",
   "url": "https://doi.org/10.3390/app12052623",
-  "volume": "12"
+  "volume": "12",
+  "number": "5"
  },
  {
   "type": "article",
@@ -2103,11 +2112,11 @@
   "title": "Bone: An Outstanding Composite Material",
   "author": "Rosa, Natacha and Moura, Marcelo F. S. F. and Olhero, Susana and Simoes, Ricardo and Magalhães, Fernão D. and Marques, António Torres and Ferreira, J P S and Reis, Ana Rita and Carvalho, Mariana and Parente, Marco",
   "year": "2022",
-  "citations": 51,
+  "citations": 50,
   "journal": "Applied Sciences",
-  "number": "7",
   "url": "https://doi.org/10.3390/app12073381",
-  "volume": "12"
+  "volume": "12",
+  "number": "7"
  },
  {
   "type": "article",
@@ -2119,9 +2128,9 @@
   "year": "2022",
   "citations": 0,
   "journal": "Endosc Int Open",
-  "number": "03",
   "url": "https://doi.org/10.1055/a-1725-3812",
   "volume": "10",
+  "number": "03",
   "pages": "E262-E268"
  },
  {
@@ -2134,9 +2143,9 @@
   "year": "2022",
   "citations": 8,
   "journal": "International Journal for Numerical Methods in Biomedical Engineering",
-  "number": "5",
   "url": "https://doi.org/10.1002/cnm.3588",
   "volume": "38",
+  "number": "5",
   "pages": "e3588"
  },
  {
@@ -2149,9 +2158,9 @@
   "year": "2022",
   "citations": 0,
   "journal": "Endosc Int Open",
-  "number": "02",
   "url": "https://doi.org/10.1055/a-1683-0942",
   "volume": "10",
+  "number": "02",
   "pages": "E171-E177"
  },
  {
@@ -2176,9 +2185,9 @@
   "year": "2022",
   "citations": 36,
   "journal": "Medical & Biological Engineering & Computing",
-  "number": "3",
   "url": "https://doi.org/10.1007/s11517-021-02486-9",
   "volume": "60",
+  "number": "3",
   "pages": "719-725"
  },
  {
@@ -2191,9 +2200,9 @@
   "year": "2022",
   "citations": 36,
   "journal": "Medical & Biological Engineering & Computing",
-  "number": "3",
   "url": "https://doi.org/10.1007/s11517-021-02486-9",
   "volume": "60",
+  "number": "3",
   "pages": "719-725"
  },
  {
@@ -2206,9 +2215,9 @@
   "year": "2022",
   "citations": 34,
   "journal": "Diagnostics",
-  "number": "9",
   "url": "https://doi.org/10.3390/diagnostics12092041",
   "volume": "12",
+  "number": "9",
   "pages": "2041"
  },
  {
@@ -2233,9 +2242,9 @@
   "year": "2022",
   "citations": 17,
   "journal": "Techniques in Coloproctology",
-  "number": "11",
   "url": "https://doi.org/10.1007/s10151-022-02684-z",
   "volume": "26",
+  "number": "11",
   "pages": "893-900"
  },
  {
@@ -2248,9 +2257,9 @@
   "year": "2022",
   "citations": 23,
   "journal": "Clinical and Translational Gastroenterology",
-  "number": "8",
   "url": "https://doi.org/10.14309/ctg.0000000000000514",
-  "volume": "13"
+  "volume": "13",
+  "number": "8"
  },
  {
   "type": "article",
@@ -2262,9 +2271,9 @@
   "year": "2022",
   "citations": 20,
   "journal": "Diagnostics",
-  "number": "6",
   "url": "https://doi.org/10.3390/diagnostics12061445",
-  "volume": "12"
+  "volume": "12",
+  "number": "6"
  },
  {
   "type": "article",
@@ -2276,9 +2285,9 @@
   "year": "2022",
   "citations": 0,
   "journal": "Gastrointestinal Endoscopy",
-  "number": "6",
   "url": "https://doi.org/10.1016/j.gie.2022.02.038",
   "volume": "95",
+  "number": "6",
   "pages": "1284"
  },
  {
@@ -2315,9 +2324,9 @@
   "year": "2021",
   "citations": 0,
   "journal": "American Journal of Gastroenterology",
-  "number": "1",
   "url": "https://doi.org/10.14309/01.ajg.0000774700.69150.96",
   "volume": "116",
+  "number": "1",
   "pages": "S254–S254"
  },
  {
@@ -2330,9 +2339,9 @@
   "year": "2021",
   "citations": 0,
   "journal": "American Journal of Gastroenterology",
-  "number": "1",
   "url": "https://doi.org/10.14309/01.ajg.0000772052.56947.9e",
   "volume": "116",
+  "number": "1",
   "pages": "S8–S9"
  },
  {
@@ -2345,9 +2354,9 @@
   "year": "2021",
   "citations": 0,
   "journal": "American Journal of Gastroenterology",
-  "number": "1",
   "url": "https://doi.org/10.14309/01.ajg.0000772004.82412.74",
   "volume": "116",
+  "number": "1",
   "pages": "S3–S3"
  },
  {
@@ -2355,13 +2364,14 @@
   "key": "Saraiva_2021",
   "id": "I13",
   "category": "Indexed Papers Related to Participation in International Conferences",
-  "title": "Automatic detection of enteric ulcers and erosions in capsule endoscopy using a convolutional neural network",
+  "title": "OP08 Automatic detection of enteric ulcers and erosions in capsule endoscopy using a convolutional neural network",
   "author": "Saraiva, M and Afonso, J and Ribeiro, T and Cardoso, H and Ferreira, J and Andrade, P and Jorge, R and Lopes, S and Macedo, G",
   "year": "2021",
   "citations": 0,
   "journal": "Journal of Crohn’s and Colitis",
   "url": "https://doi.org/10.1093/ecco-jcc/jjab075.007",
   "volume": "15",
+  "number": "Supplement_1",
   "pages": "S007–S008"
  },
  {
@@ -2374,9 +2384,9 @@
   "year": "2021",
   "citations": 0,
   "journal": "Gastrointestinal Endoscopy",
-  "number": "6, Supplement",
   "url": "https://doi.org/10.1016/j.gie.2021.03.432",
   "volume": "93",
+  "number": "6, Supplement",
   "pages": "AB190-AB191"
  },
  {
@@ -2389,9 +2399,9 @@
   "year": "2021",
   "citations": 0,
   "journal": "Gastrointestinal Endoscopy",
-  "number": "6, Supplement",
   "url": "https://doi.org/10.1016/j.gie.2021.03.895",
   "volume": "93",
+  "number": "6, Supplement",
   "pages": "AB351-AB352"
  },
  {
@@ -2404,9 +2414,9 @@
   "year": "2021",
   "citations": 0,
   "journal": "Gastrointestinal Endoscopy",
-  "number": "6, Supplement",
   "url": "https://doi.org/10.1016/j.gie.2021.03.443",
   "volume": "93",
+  "number": "6, Supplement",
   "pages": "AB197-AB198"
  },
  {
@@ -2419,9 +2429,9 @@
   "year": "2021",
   "citations": 1,
   "journal": "Gastrointestinal Endoscopy",
-  "number": "6, Supplement",
   "url": "https://doi.org/10.1016/j.gie.2021.03.250",
   "volume": "93",
+  "number": "6, Supplement",
   "pages": "AB98-AB99"
  },
  {
@@ -2429,14 +2439,14 @@
   "key": "saraivadop90_2021",
   "id": "I18",
   "category": "Indexed Papers Related to Participation in International Conferences",
-  "title": "Automatic detection of ulcers and erosions in PillCam Crohn's capsule using a convolutional neural network",
+  "title": "DOP80 Automatic detection of ulcers and erosions in PillCam Crohn's capsule using a convolutional neural network",
   "author": "Saraiva, M and Ribeiro, T and Afonso, J and Cardoso, H and Ferreira, J and Andrade, P and Parente, M and Jorge, R and Lopes, S and Macedo, G",
   "year": "2021",
   "citations": 1,
   "journal": "Journal of Crohn's and Colitis",
-  "number": "1, Supplement",
   "url": "https://doi.org/10.1093/ecco-jcc/jjab073.119",
   "volume": "15",
+  "number": "1, Supplement",
   "pages": "S111-S112"
  },
  {
@@ -2449,9 +2459,9 @@
   "year": "2021",
   "citations": 0,
   "journal": "Gastrointestinal Endoscopy",
-  "number": "6",
   "url": "https://doi.org/10.1016/j.gie.2021.03.432",
   "volume": "93",
+  "number": "6",
   "pages": "AB190-AB191"
  },
  {
@@ -2476,9 +2486,9 @@
   "year": "2021",
   "citations": 0,
   "journal": "Gastrointestinal Endoscopy",
-  "number": "6",
   "url": "https://doi.org/10.1016/j.gie.2021.03.443",
   "volume": "93",
+  "number": "6",
   "pages": "AB197-AB198"
  },
  {
@@ -2491,9 +2501,9 @@
   "year": "2021",
   "citations": 0,
   "journal": "Gastrointestinal Endoscopy",
-  "number": "6",
   "url": "https://doi.org/10.1016/j.gie.2021.03.895",
   "volume": "93",
+  "number": "6",
   "pages": "AB351-AB352"
  },
  {
@@ -2501,14 +2511,14 @@
   "key": "ribeirop113_2021",
   "id": "I22",
   "category": "Indexed Papers Related to Participation in International Conferences",
-  "title": "Automatic detection of colonic ulcers and erosions in colon capsule endoscopy images using a convolutional neural network",
+  "title": "P113 Automatic detection of colonic ulcers and erosions in colon capsule endoscopy images using a convolutional neural network",
   "author": "Ribeiro, T and Mascarenhas Saraiva, M and Afonso, J and Cardoso, H and Ferreira, J and Andrade, P and Jorge, R and Lopes, S and Macedo, G",
   "year": "2021",
   "citations": 1,
   "journal": "Journal of Crohn's and Colitis",
-  "number": "1, Supplement",
   "url": "https://doi.org/10.1093/ecco-jcc/jjab076.240",
   "volume": "15",
+  "number": "1, Supplement",
   "pages": "S205-S206"
  },
  {
@@ -2516,14 +2526,14 @@
   "key": "afonsop188_2021",
   "id": "I23",
   "category": "Indexed Papers Related to Participation in International Conferences",
-  "title": "Artificial Intelligence and Colon Capsule Endoscopy: Automatic detection of colonic mucosal lesions and blood using a convolutional neural network",
+  "title": "P188 Artificial Intelligence and Colon Capsule Endoscopy: Automatic detection of colonic mucosal lesions and blood using a convolutional neural network",
   "author": "Afonso, J and Mascarenhas, M and Ribeiro, T and Cardoso, H and Ferreira, J and Andrade, P and Jorge, R and Lopes, S and Macedo, G",
   "year": "2021",
   "citations": 0,
   "journal": "Journal of Crohn's and Colitis",
-  "number": "1, Supplement",
   "url": "https://doi.org/10.1093/ecco-jcc/jjab076.315",
   "volume": "15",
+  "number": "1, Supplement",
   "pages": "S257-S258"
  },
  {
@@ -2572,9 +2582,9 @@
   "year": "2021",
   "citations": 1,
   "journal": "American Journal of Gastroenterology",
-  "number": "1",
   "url": "https://doi.org/10.14309/01.ajg.0000779184.27391.8a",
   "volume": "116",
+  "number": "1",
   "pages": "S649–S649"
  },
  {
@@ -2587,9 +2597,9 @@
   "year": "2021",
   "citations": 0,
   "journal": "American Journal of Gastroenterology",
-  "number": "1",
   "url": "https://doi.org/10.14309/01.ajg.0000778960.27312.84",
   "volume": "116",
+  "number": "1",
   "pages": "S624–S625"
  },
  {
@@ -2602,9 +2612,9 @@
   "year": "2021",
   "citations": 0,
   "journal": "American Journal of Gastroenterology",
-  "number": "1",
   "url": "https://doi.org/10.14309/01.ajg.0000778896.15751.28",
   "volume": "116",
+  "number": "1",
   "pages": "S618–S618"
  },
  {
@@ -2617,9 +2627,9 @@
   "year": "2021",
   "citations": 0,
   "journal": "American Journal of Gastroenterology",
-  "number": "1",
   "url": "https://doi.org/10.14309/01.ajg.0000777448.73077.88",
   "volume": "116",
+  "number": "1",
   "pages": "S468–S468"
  },
  {
@@ -2692,9 +2702,9 @@
   "year": "2021",
   "citations": 22,
   "journal": "Annals of gastroenterology",
-  "number": "6",
   "url": "https://doi.org/10.20524/aog.2021.0653",
   "volume": "34",
+  "number": "6",
   "pages": "820–828"
  },
  {
@@ -2755,9 +2765,9 @@
   "year": "2021",
   "citations": 24,
   "journal": "Endosc Int Open",
-  "number": "08",
   "url": "https://doi.org/10.1055/a-1490-8960",
   "volume": "09",
+  "number": "08",
   "pages": "E1264-E1268"
  },
  {
@@ -2770,9 +2780,9 @@
   "year": "2021",
   "citations": 51,
   "journal": "BMJ Open Gastroenterology",
-  "number": "1",
   "url": "https://doi.org/10.1136/bmjgast-2021-000753",
-  "volume": "8"
+  "volume": "8",
+  "number": "1"
  },
  {
   "type": "article",
@@ -2784,9 +2794,9 @@
   "year": "2021",
   "citations": 21,
   "journal": "Medicina",
-  "number": "12",
   "url": "https://doi.org/10.3390/medicina57121378",
-  "volume": "57"
+  "volume": "57",
+  "number": "12"
  },
  {
   "type": "article",
@@ -2798,9 +2808,9 @@
   "year": "2021",
   "citations": 0,
   "journal": "Clinical and Translational Gastroenterology",
-  "number": "11",
   "url": "https://journals.lww.com/ctg/Fulltext/2021/11000/Automatic_Identification_of_Papillary_Projections.1.aspx",
-  "volume": "12"
+  "volume": "12",
+  "number": "11"
  },
  {
   "type": "article",
@@ -2812,9 +2822,9 @@
   "year": "2021",
   "citations": 27,
   "journal": "GE - Portuguese Journal of Gastroenterology",
-  "number": "5",
   "url": "https://doi.org/10.1159/000518901",
   "volume": "29",
+  "number": "5",
   "pages": "331-338"
  },
  {
@@ -2875,9 +2885,9 @@
   "year": "2020",
   "citations": 8,
   "journal": "Computer Methods in Biomechanics and Biomedical Engineering",
-  "number": "2",
   "url": "https://doi.org/10.1080/10255842.2019.1710742",
   "volume": "81",
+  "number": "2",
   "pages": "1–11"
  },
  {
@@ -2902,9 +2912,9 @@
   "year": "2020",
   "citations": 3,
   "journal": "Biomechanics and Modeling in Mechanobiology",
-  "number": "10",
   "url": "https://doi.org/10.1007/s10237-020-01324-5",
   "volume": "130",
+  "number": "10",
   "pages": "202–19"
  },
  {
@@ -3026,9 +3036,9 @@
   "year": "2019",
   "citations": 24,
   "journal": "Biomechanics and Modeling in Mechanobiology",
-  "number": "3",
   "url": "https://doi.org/10.1007/s10237-019-01117-5",
   "volume": "18",
+  "number": "3",
   "pages": "829–843"
  },
  {
@@ -3041,9 +3051,9 @@
   "year": "2019",
   "citations": 12,
   "journal": "Interface Focus",
-  "number": "5",
   "url": "https://doi.org/10.1098/rsfs.2019.0027",
   "volume": "9",
+  "number": "5",
   "pages": "20190027"
  },
  {
@@ -3166,9 +3176,9 @@
   "year": "2018",
   "citations": 33,
   "journal": "International Journal for Numerical Methods in Biomedical Engineering",
-  "number": "3",
   "url": "https://doi.org/10.1002/cnm.2927",
   "volume": "34",
+  "number": "3",
   "pages": "e2927"
  },
  {
@@ -3193,9 +3203,9 @@
   "year": "2018",
   "citations": 46,
   "journal": "Advanced Modeling and Simulation in Engineering Sciences",
-  "number": "1",
   "url": "https://doi.org/10.1186/s40323-018-0106-7",
   "volume": "5",
+  "number": "1",
   "pages": "83"
  },
  {
@@ -3283,9 +3293,9 @@
   "year": "2017",
   "citations": 20,
   "journal": "Biomechanics and Modeling in Mechanobiology",
-  "number": "18–19",
   "url": "https://doi.org/10.1007/s10237-017-0875-9",
   "volume": "44",
+  "number": "18–19",
   "pages": "5894–1140"
  },
  {
@@ -3310,9 +3320,9 @@
   "year": "2016",
   "citations": 5,
   "journal": "Proceedings of the Institution of Mechanical Engineers, Part L: Journal of Materials: Design and Applications",
-  "number": "1-2",
   "url": "https://doi.org/10.1177/1464420716662295",
   "volume": "231",
+  "number": "1-2",
   "pages": "126–139"
  },
  {
@@ -3416,9 +3426,9 @@
   "year": "2015",
   "citations": 0,
   "journal": "Proceedings of the Institution of Mechanical Engineers, Part L: Journal of Materials: Design and Applications",
-  "number": "1",
   "url": "https://doi.org/10.1177/1464420715592905",
   "volume": "230",
+  "number": "1",
   "pages": "1–17"
  },
  {
@@ -3468,8 +3478,8 @@
   "year": "",
   "citations": 29,
   "journal": "Journal of Gastroenterology and Hepatology",
-  "number": "n/a",
   "url": "https://doi.org/10.1111/jgh.16011",
-  "volume": "n/a"
+  "volume": "n/a",
+  "number": "n/a"
  }
 ]

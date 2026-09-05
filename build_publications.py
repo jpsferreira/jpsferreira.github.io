@@ -121,14 +121,6 @@ def _clean(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
-_POSTER_CODE_RE = re.compile(r"^(?:P\d{3,4}|(?:Mo|Tu|We|Th|Fr|Sa|Su)\d{2,4}[A-Za-z]?|OP\d{2,4}|DOP\d{2,4})\b[\s:.\-–]*")
-
-
-def display_title(title):
-    """Strip conference poster/abstract codes ("P0494 Unmasking IBS…") for display only."""
-    return _POSTER_CODE_RE.sub("", title).strip() or title
-
-
 def parse_categories(text):
     """Flat YAML subset: 'Name:' lines followed by '  - key' items; # comments."""
     cats, current = {}, None
@@ -232,19 +224,16 @@ def main():
                 "key": key,
                 "id": f"{prefix}{n - i}",
                 "category": cat,
-                "title": display_title(f.get("title", "Untitled")),
+                "title": f.get("title", "Untitled"),
                 "author": f.get("author", ""),
                 "year": year.group() if year else "",
                 "citations": cites.get(doi, 0),
                 "journal": (f.get("number", "") + " · " + f.get("note", "")).strip(" ·")
                            if is_patent else
                            (f.get("journal") or f.get("booktitle") or f.get("publisher") or ""),
-                # "Supplement_1" issue numbers on abstract supplements add nothing on screen
-                **({"number": f["number"]} if not is_patent and f.get("number")
-                   and not f["number"].lower().startswith("supplement") else {}),
                 "url": f"https://doi.org/{doi}" if doi else (f.get("url") or ""),
             }
-            for opt in ("volume", "pages"):
+            for opt in ("volume", "number", "pages"):
                 if not is_patent and f.get(opt):
                     entry[opt] = f[opt]
             pubs.append(entry)
@@ -257,8 +246,7 @@ def main():
     stats = {
         **author_stats,
         "total_publications": len(pubs),
-        # journal papers proper (A-series), matching the CV's "92 papers in international journals"
-        "articles": sum(1 for p in pubs if p["category"] == "Papers in International Journals"),
+        "articles": sum(1 for p in pubs if p["type"] == "article"),
         "patents": sum(1 for p in pubs if p["type"] == "patent"),
         "source": "curated BibTeX (jpsferreira/cv); per-paper citations OpenAlex; "
                   "author stats Google Scholar (fallback OpenAlex)",
