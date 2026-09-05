@@ -1,3 +1,5 @@
 *.pptx
 .DS_Store
 .venv/
+.playwright-mcp/
+/*.png
